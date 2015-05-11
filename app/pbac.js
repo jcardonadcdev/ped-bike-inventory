@@ -8,7 +8,8 @@
     "pbacServices",
     "pbacMapServices",
     "pbacInventoryLocator",
-    "pbacLanding"
+    "pbacLanding",
+    "pbacEditor"
   ])
 
   .config(function($routeProvider, $httpProvider, $sceDelegateProvider) {
@@ -28,6 +29,11 @@
       .when("/map", {
         controller: "pbacInventoryLocatorController",
         templateUrl: "pbacMap/inventoryLocator.html",
+        reloadOnSearch: false
+      })
+      .when("/edit", {
+        controller: "pbacEditorController",
+        templateUrl: "pbacEditor/pbacEditor.html",
         reloadOnSearch: false
       })
       .otherwise({

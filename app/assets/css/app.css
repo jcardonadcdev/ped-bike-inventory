@@ -152,6 +152,46 @@ a:active {
   font-size: 2.5em;
 }
 
+.editingCanvas{
+  /*position: absolute;*/
+  top: 0;
+  background-color: #ffffff;
+  height: 30%;
+  width: 100%;
+}
+
+.nonEditingCanvas{
+  width:100%;
+  height: 70%;
+  background-color: #ffffff;
+  overflow: auto;
+}
+
+.editText{
+  margin-left: 2px;
+  padding-top: 2px;
+  width: 100%;
+  /*position: relative;*/
+  border-bottom: 2px solid #dcdcdc;
+}
+
+.editLabel{
+  color: #7B2900;
+  font-family: 'FontAwesome', "Helvetica Neue Light", "Lucida Grande", "Calibri", "Arial", sans-serif;
+  font-size: 1.2em;
+  width: 100%;
+  /*float:left;*/
+}
+
+.editEntry{
+  color: #000000;
+  font-family: 'FontAwesome', "Helvetica Neue Light", "Lucida Grande", "Calibri", "Arial", sans-serif;
+  font-size: 1.2em;
+  width: 100%;
+  margin-left: 5px;
+  /*float:left;*/
+}
+
 .menuBannerDiv{
   /*display: block;*/
   position: relative;

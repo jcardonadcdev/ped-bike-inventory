@@ -1,0 +1,35 @@
+<div class="scrollable">
+  <div>
+    <div class="editText">
+      <span class="editLabel">ID: </span><span>{{editFeature.attributes.district_id}}</span>
+    </div>
+    <div class="editText">
+      <span class="editLabel">Completed: </span><input type="checkbox" ng-model="editFeature.attributes.completed">
+    </div>
+    <div class="editText">
+      <div class="editLabel">Comment: </div>
+      <textarea rows="3" name="comments" style="width: 95%""></textarea>
+    </div>
+  </div>
+  
+  <div class="scrollable-content"> 
+    <!--<h1 class="landingText">Edit the stuff here</h1>--></h1>
+    <div class="editText">
+      <div class="editLabel">Location: </div><div class="editEntry">{{editFeature.attributes.location}}</div>
+    </div>
+    <div class="editText">
+      <div class="editLabel">Existing protection: </div><div class="editEntry">{{editFeature.attributes.existing_ped_protection}}</div>
+    </div>
+    <div class="editText">
+      <div class="editLabel">Comments_Landuse: </div><div class="editEntry">{{editFeature.attributes.comments_landuse}}</div>
+    </div>
+    <div class="editText">
+      <div class="editLabel">Recommendation: </div><div class="editEntry">{{editFeature.attributes.recommendation}}</div>
+    </div>
+  </div>
+<!--  <div class="editText">
+    <div class="editLabel">Comment: </div><textarea class="editEntry" rows="2" ng-model="editFeature.attributes.inventory_comment"></div>
+  </div>-->
+</div>
+
+  
