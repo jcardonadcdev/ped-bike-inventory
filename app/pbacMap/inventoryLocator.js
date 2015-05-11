@@ -17,7 +17,7 @@
       //get config for data url and schema and then query to get data
       queryConfig().then(function(configdata){
         configdata = configdata || {};
-        //console.log("got config: ", configdata.locatorMapConfig);
+        console.log("got config: ", configdata.locatorMapConfig);
         $scope.locatorMapConfig = configdata.locatorMapConfig;
         if($scope.locatorMapConfig){
           $scope.pageConfigProperties.configLoaded = true;
@@ -29,16 +29,16 @@
       });
 
       this.setSelectedUnit = function(id){
-        console.log("Setting unit: ", id);
+        //console.log("Setting unit: ", id);
         $location.replace();
         $location.search("id", id);
         //$scope.pageConfigProperties.selectedUnitId = id;
         //if id supplied, get summary from biosService
         if(id){
-         console.log("selected id: ", id);
+         //console.log("selected id: ", id);
         }
         else{
-          console.log("no selected id: ");
+          //console.log("no selected id: ");
         }
       };
     });

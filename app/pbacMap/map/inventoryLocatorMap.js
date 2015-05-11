@@ -18,7 +18,8 @@
             //watch dataLoaded variable so can load map
             scope.$watch("pageConfigProperties.configLoaded", function(newVal){
               if (newVal && !scope.pageConfigProperties.mapLoaded){
-                scope.idField = scope.pageConfigProperties.idField;
+                //console.log("scope.locatorMapConfig: ", scope.locatorMapConfig);
+                scope.idField = scope.locatorMapConfig.idField;
                 queryInventorySites({url: scope.locatorMapConfig.inventoryUrl}).then(function(data){
                   //console.log("got inventory: ", data);
                   data = data || [];
@@ -114,7 +115,7 @@
           //set center
           if(mapcenter && !angular.isArray(mapcenter)){
             defaultMapProperties.center = webMercatorUtils.xyToLngLat(mapcenter.x, mapcenter.y);
-            defaultMapProperties.zoom = 5;
+            defaultMapProperties.zoom = 15;
             //console.log("$scope.defaultMapProperties.center: ", $scope.defaultMapProperties.center);
           }
 
@@ -203,7 +204,7 @@
                 selectedFeature;
               
               selectedFeature = layerQueryService.getClosestFeature(ext, garray);
-              console.log("selectedFeature: ", selectedFeature);
+              //console.log("selectedFeature: ", selectedFeature);
               self.setLocatorPosition(selectedFeature);
             });
           });
@@ -218,13 +219,16 @@
           newId = null;
         }
         else{
+          //console.log("$scope.idField: ", $scope.idField);
           newId = memorialFeature.feat.attributes[$scope.idField];
+          //console.log("configuring newID ", memorialFeature);
           geom = $scope.mapSelectionInfo.memorialUnitGraphic.geometry;
           geom.update(memorialFeature.feat.geometry.x, memorialFeature.feat.geometry.y);
           $scope.mapSelectionInfo.memorialUnitGraphic.setGeometry(geom);
           $scope.mapSelectionInfo.memorialUnitGraphic.show();
         }
         $timeout(function(){
+          //console.log("setting $scope.pageConfigProperties.selectedUnitId: ", newId);
           $scope.pageConfigProperties.selectedUnitId = newId;
         });
       };
