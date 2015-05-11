@@ -156,13 +156,13 @@ a:active {
   /*position: absolute;*/
   top: 0;
   background-color: #ffffff;
-  height: 30%;
+  height: 35%;
   width: 100%;
 }
 
 .nonEditingCanvas{
   width:100%;
-  height: 70%;
+  height: 65%;
   background-color: #ffffff;
   overflow: auto;
 }

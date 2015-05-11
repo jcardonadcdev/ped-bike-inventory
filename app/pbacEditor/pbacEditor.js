@@ -39,9 +39,24 @@
       
       function getEditFeature(){
         queryInventorySites($scope.pageConfigProperties).then(function(feature){
-          $scope.editFeature = feature;
+          var orgfeat = feature,
+            editfeat = {
+              attributes: {}
+            };
+          
+          editfeat.attributes.inventory_comment = orgfeat.attributes.inventory_comment;
+          //editfeat.attributes.inventory_comment = "Existing comment";
+          editfeat.attributes.completed = orgfeat.attributes.completed && orgfeat.attributes.completed !== 0;
+          //editfeat.attributes.completed = true;
+         
+          $scope.editFeature = editfeat;
+          $scope.orgFeat = feature;
           console.log("editFeature: ", feature);
         });
       }
+      
+      $scope.applyEdits = function(){
+        console.log("editFeature: ", $scope.editFeature);
+      };
     });
 })(angular);
