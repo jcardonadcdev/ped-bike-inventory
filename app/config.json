@@ -2,6 +2,65 @@
 	"instructionsConfig": {
 		
 	},
+  
+  "districts": [
+    {
+      "id": "HW",
+      "label": "Hunters Woods"
+    },
+    {
+      "id": "LA",
+      "label": "Lake Anne"
+    },
+    {
+      "id": "NP",
+      "label": "North Point"
+    },
+    {
+      "id": "SL",
+      "label": "South Lakes"
+    },
+    {
+      "id": "TC",
+      "label": "Town Center"
+    }
+  ],
+  
+  "workers": [
+    {
+      "id": "Burton_G"
+    },
+    {
+      "id": "Craig_C"
+    },
+    {
+      "id": "Dan_K"
+    },
+    {
+      "id": "Dan_R"
+    },
+    {
+      "id": "Emily_M"
+    },
+    {
+      "id": "James_C"
+    },
+    {
+      "id": "Joe_S"
+    },
+    {
+      "id": "Kelley_W"
+    },
+    {
+      "id": "Lucinda_S"
+    },
+    {
+      "id": "Rick_R"
+    },
+    {
+      "id": "Rory_R"
+    }
+  ],
 	
 	"locatorMapConfig": {
     "idField": "district_id",

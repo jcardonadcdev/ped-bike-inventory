@@ -7,7 +7,8 @@
     "ngRoute",
     "pbacServices",
     "pbacMapServices",
-    "pbacInventoryLocator"
+    "pbacInventoryLocator",
+    "pbacLanding"
   ])
 
   .config(function($routeProvider, $httpProvider, $sceDelegateProvider) {
@@ -21,7 +22,8 @@
     
     $routeProvider
       .when("/landing", {
-        templateUrl: "pbacLanding/landing.html"
+        templateUrl: "pbacLanding/landing.html",
+        controller: "pbacLandingController"
       })
       .when("/map", {
         controller: "pbacInventoryLocatorController",

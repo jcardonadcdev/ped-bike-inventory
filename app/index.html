@@ -22,6 +22,8 @@
     <script src="components/services/pbacServices.js"></script>
     <script src="components/services/pbacMapServices.js"></script>
       
+    <script src="pbacLanding/landing.js"></script>
+      
     <script src="pbacMap/inventoryLocator.js"></script>
     <script src="pbacMap/inventoryLocatorService.js"></script>
     <script src="pbacMap/map/inventoryLocatorMap.js"></script>
@@ -29,6 +31,11 @@
   </head>
   <body ng-controller="pbacAppController">
     <div class="app">
+      <div class="navbar navbar-app navbar-absolute-top" ng-style="{'visibility': lpConfig.navBarVisibilityProperty}">
+        <div class="navbar-brand navbar-brand-center" ui-yield-to="title">
+          <span>{{navbarConfig.appMenuTitle}}</span>
+        </div>
+      </div>
       <div class="app-body">
         <div class="app-content">
           <ng-view></ng-view>
