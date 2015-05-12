@@ -39,9 +39,6 @@ dist
 #files downloaded by bower
 bower_components
 
-#third party libraries
-#app/libs
-
 #temp files
 temp
 
