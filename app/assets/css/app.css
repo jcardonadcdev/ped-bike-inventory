@@ -173,6 +173,7 @@ a:active {
   width: 100%;
   /*position: relative;*/
   border-bottom: 2px solid #dcdcdc;
+  background-color: #ffffff;
 }
 
 .editLabel{
@@ -190,6 +191,17 @@ a:active {
   width: 100%;
   margin-left: 5px;
   /*float:left;*/
+}
+
+.mapSidebar{
+  position:absolute;
+  left:0;
+  bottom:0;
+  top:0;
+  width:20%;
+  z-index:5;
+  background-color:#ffffff;
+  padding: 5px;
 }
 
 .menuBannerDiv{

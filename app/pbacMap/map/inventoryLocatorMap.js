@@ -135,7 +135,8 @@
             };
             //var renderer = makeRenderer();
             inventoryLayer = new FeatureLayer(fColl, {
-              id: "inventory"
+              id: "inventory",
+              opacity: 0.75
             });
 
            /* //css used to symbolize points, so graphic-draw event used to set data-attribute of graphic node
@@ -171,6 +172,7 @@
               new Color([255, 255, 0]), 2), new Color([255, 255, 0, 0.2])),
               gMemorial,
               geom;
+              
 
             if($scope.mapSelectionInfo.selectedMemorial){
               geom = $scope.mapSelectionInfo.selectedMemorial.geometry;
@@ -194,6 +196,10 @@
             //console.log("adding selection graphic: ", gMemorial);
             esriMap.graphics.add(gMemorial);
             $scope.mapSelectionInfo.memorialUnitGraphic = gMemorial;
+            
+            self.setLocatorPosition({
+              feat: $scope.mapSelectionInfo.selectedMemorial
+            });
 
             esriMap.on("click", function(evt){
               //console.log("map click: ", evt);
@@ -216,11 +222,13 @@
           newId;
         if(!memorialFeature || !memorialFeature.feat){
           $scope.mapSelectionInfo.memorialUnitGraphic.hide();
+          $scope.selectedMemorial = {};
           newId = null;
         }
         else{
           //console.log("$scope.idField: ", $scope.idField);
           newId = memorialFeature.feat.attributes[$scope.idField];
+          $scope.selectedMemorial = memorialFeature.feat;
           //console.log("configuring newID ", memorialFeature);
           geom = $scope.mapSelectionInfo.memorialUnitGraphic.geometry;
           geom.update(memorialFeature.feat.geometry.x, memorialFeature.feat.geometry.y);

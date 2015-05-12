@@ -1,5 +1,17 @@
 <div class="scrollable">
   <div class="scrollable-content" style="position: relative">
+    <div ng-show="pageConfigProperties.selectedUnitId !== null" class="editCanvas mapSidebar">
+      <div class="editText">
+        <div class="editLabel">ID:</div>
+        <span class="editContent">{{selectedMemorial.attributes.district_id}}</span>
+      </div>
+      <div class="editText">
+        <div class="editLabel">Location:</div>
+        <span class="editContent">{{selectedMemorial.attributes.location}}</span>
+      </div>
+      
+      <button class="pmmButton" ng-click="startEdit()">Edit</button>
+    </div>
     <pbac-inventory-locator-map id="map"></pbac-inventory-locator-map>
   </div>
 </div>
