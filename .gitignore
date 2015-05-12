@@ -33,9 +33,6 @@ node_modules
 #WebStorm project files
 .idea
 
-#built files
-dist
-
 #files downloaded by bower
 bower_components
 
