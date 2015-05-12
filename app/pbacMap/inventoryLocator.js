@@ -8,12 +8,12 @@
       //$scope.helpInfo.helpAvailable = true;
       //$scope.helpInfo.showHelp = false;
       
-//      if($routeParams.district){
-//        $scope.inventoryConfig.district.id = $routeParams.district;
-//      }
-//      if($routeParams.worker){
-//        $scope.inventoryConfig.worker.id = $routeParams.worker;
-//      }
+      if($routeParams.district){
+        $scope.inventoryConfig.district.id = $routeParams.district;
+      }
+      if($routeParams.worker){
+        $scope.inventoryConfig.worker.id = $routeParams.worker;
+      }
 //      if(!$scope.inventoryConfig.worker.id || !$scope.inventoryConfig.district.id){
 //        $window.location = "#/landing";
 //      }

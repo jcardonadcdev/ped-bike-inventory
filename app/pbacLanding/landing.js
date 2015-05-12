@@ -20,7 +20,7 @@
 
       $scope.startInventory = function(id){
         console.log("Starting: ", $scope.inventoryConfig);
-        $window.location = "#/map";
+        $window.location = "#/map?district=" + $scope.inventoryConfig.district.id + "&worker=" + $scope.inventoryConfig.worker.id;
       };
     });
 })(angular);

@@ -18,9 +18,9 @@
             //watch dataLoaded variable so can load map
             scope.$watch("pageConfigProperties.configLoaded", function(newVal){
               if (newVal && !scope.pageConfigProperties.mapLoaded){
-                //console.log("scope.locatorMapConfig: ", scope.locatorMapConfig);
+                console.log("scope.inventoryConfig.district.id: ", scope.inventoryConfig.district.id);
                 scope.idField = scope.locatorMapConfig.idField;
-                queryInventorySites({url: scope.locatorMapConfig.inventoryUrl}).then(function(data){
+                queryInventorySites({url: scope.locatorMapConfig.inventoryUrl, parent: scope.inventoryConfig.district.id}).then(function(data){
                   //console.log("got inventory: ", data);
                   data = data || [];
                   controller.initializeMap(data);
@@ -95,7 +95,13 @@
           //inner function for adding memorial points to map
           function loadMapPoints(){
             var lm,
-              g, i;
+              g, i,
+              extent = {
+                xmin: Infinity,
+                ymin: Infinity,
+                xmax: -Infinity,
+                ymax: -Infinity
+              };
             //console.log("$scope.pageConfigProperties.inventorySites.length: ", $scope.pageConfigProperties.inventorySites.length);
             for(i = 0; i < inventorySites.length; i++){
               lm = inventorySites[i];
@@ -103,7 +109,24 @@
               g = new Graphic(lm);
               g.geometry.setSpatialReference(esriMap.spatialReference);
               inventoryLayer.add(g);
+              
+              if(g.geometry.x > extent.xmax){
+                extent.xmax = g.geometry.x;
+              }
+              if(g.geometry.y > extent.ymax){
+                extent.ymax = g.geometry.y;
+              }
+              if(g.geometry.x < extent.xmin){
+                extent.xmin = g.geometry.x;
+              }
+              if(g.geometry.y < extent.ymin){
+                extent.ymin = g.geometry.y;
+              }
             }
+            extent = new Extent(extent);
+            extent.spatialReference = esriMap.spatialReference;
+            console.log("extent: ", extent);
+            esriMap.setExtent(extent, true);
           }
 
           //function to make renderer
