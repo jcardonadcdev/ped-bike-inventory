@@ -40,7 +40,7 @@ dist
 bower_components
 
 #third party libraries
-app/libs
+#app/libs
 
 #temp files
 temp
