@@ -1,8 +1,8 @@
 {
 	"instructionsConfig": {
-		
+
 	},
-  
+
   "districts": [
     {
       "id": "HW",
@@ -25,7 +25,7 @@
       "label": "Town Center"
     }
   ],
-  
+
   "workers": [
     {
       "id": "Burton_G"
@@ -61,7 +61,7 @@
       "id": "Rory_R"
     }
   ],
-	
+
 	"locatorMapConfig": {
     "idField": "district_id",
     "parentField": "district",
@@ -127,93 +127,143 @@
       ],
       "drawingInfo": {
         "renderer": {
-        	"type": "uniqueValue",
-        	"field1": "district",
-        	"field2": null,
-        	"field3": null,
-        	"fieldDelimiter": ", ",
-        	"defaultSymbol": null,
-        	"defaultLabel": null,
-        	"uniqueValueInfos": [{
-        		"symbol": {
-        			"type": "esriPMS",
-        			"url": "adaea7bc45be82cbe9708dff65b255f6",
-        			"imageData": "iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAOxJREFUKJGN0S9Lg1EUgPHfXq5crENEXLIoGLTbDNZNEHRbNBhkwapZ8AMIfoVpEAyDyfwANrN2izDfYNkug82yN/lne9IJzwPncIIpDywOOClRE2NFSn30xlw3yQsvQJu1YYzdUkobICVYx05G6y7G6lFKzxDuiaMYOwr5J0uTlDptthu8hxHHUtr8Qy4ol7jAaUB1hlywXwSVOYOVJ7KA/pxBvsc4oIfdWXaJRwgL3IxozVhtOOESwgFft+VyVZ53sfyLPECzzivTx9Xz/KXNVhbj+SSlGlbxiV7G1SFvRR2KocGHlM5w9t8t3yG1RYKimW0WAAAAAElFTkSuQmCC",
-        			"contentType": "image/png",
-        			"width": 9,
-        			"height": 9,
-        			"angle": 0,
-        			"xoffset": 0,
-        			"yoffset": 0
-        		},
-        		"value": "HW",
-        		"label": "Hunter Woods",
-        		"description": ""
-        	},
-        	{
-        		"symbol": {
-        			"type": "esriPMS",
-        			"url": "8372b8de3e400c23df598ff9a05a1639",
-        			"imageData": "iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAADZJREFUKJFjYYh+tpeBgUGZgRjwi1GLhZ2BQfonA4M8URq+sTKxEKUQCYxqGCQafi6V0iBFAwBVxgeO6VgDcQAAAABJRU5ErkJggg==",
-        			"contentType": "image/png",
-        			"width": 9,
-        			"height": 9,
-        			"angle": 0,
-        			"xoffset": 0,
-        			"yoffset": 0
-        		},
-        		"value": "LA",
-        		"label": "Lake Anne",
-        		"description": ""
-        	},
-        	{
-        		"symbol": {
-        			"type": "esriPMS",
-        			"url": "9dabe5bc0e7b10f830026ac1f0571cc7",
-        			"imageData": "iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAQJJREFUKJGNkTFLA0EQRt8sK4uWQcS4NjYKFtrbWdherK3E4gzhirRaC5YWioT7HYHI+QPsrLXPIUI8wcbb5sYiOQUJSV41DO+DGT7LhGHKslFioAXOQxihZJXhdjOmqD0LkKdsiboBhJ3xOgBsIxyYiiRPXeTj8ARgP29wpbq+/sr/EFZFQz/vse/bDG25wpkSdqfKfzREuAQ6VoUInaOPOQY6FsUvpMO6PmIsMFowUMgRlRXIFA7n2aI8ANjKcW8CiTLztBLhCsD6U77eeo0IKQbA2hT5W+Ckec4LTIprtovn/I49s+QuILQUNoAPIEO4bsa81mlbDz7hHUIX6M765QeAAk3gFUv/mwAAAABJRU5ErkJggg==",
-        			"contentType": "image/png",
-        			"width": 9,
-        			"height": 9,
-        			"angle": 0,
-        			"xoffset": 0,
-        			"yoffset": 0
-        		},
-        		"value": "NP",
-        		"label": "North Point",
-        		"description": ""
-        	},
-        	{
-        		"symbol": {
-        			"type": "esriPMS",
-        			"url": "16bcf466541b419e592ff0190ffb3a94",
-        			"imageData": "iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAPdJREFUKJGFj7FKA0EURU/W0RFSiGWQYDMwP6H4C4KVtR8QDCME0dJGl9VaGxvLFfEHLASxEKxSrG4jaBsri0ecjIVrZGFcb/feuwfOU0RiHUtFylvspmrTKTPmWe/7IHvGcV5O6JHxEQVsj65/4gJktVptmUSvaNfeHKajxxpg+2z4hDNgsS4gVpB76xgUKSdAUGZHH/gguzHfKnMeMttnrchYVwSShvJvku+e0kk7l4kM/uv7FjmAGh6OHozjBVhu6I87n1yXVE+P0ZezyHYDcHN7zDs/wHyL3Af+BiqdKVAcyZ1xvAKdmP6C56oGAKFM6TYoTfMFvuZNLby6GrQAAAAASUVORK5CYII=",
-        			"contentType": "image/png",
-        			"width": 9,
-        			"height": 9,
-        			"angle": 0,
-        			"xoffset": 0,
-        			"yoffset": 0
-        		},
-        		"value": "SL",
-        		"label": "South Lakes",
-        		"description": ""
-        	},
-        	{
-        		"symbol": {
-        			"type": "esriPMS",
-        			"url": "d984824f5418777bab8ffd6b4aab5dc4",
-        			"imageData": "iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAKhJREFUKJHNzz1KQ2EQhtEz5oMUQiRXtNImy0jsRNcgFhYuzyJ9JIUgBkXBlfj196oZG0H8TUqf+gy8U2Ah95Ipdn2tr4tNZ+Mat1Cu5X5yhdE3DC3Zmt00eTypcVc2uPgVfzSIanYvd4q+oXYFR7LVo1dW08/9x4NodbmefX1iWZaN86guMfwDv+D0SHTloMbDosnDrOZofsDPOJmIKe8/jGs8YnudXW/JdS/jHRG0gAAAAABJRU5ErkJggg==",
-        			"contentType": "image/png",
-        			"width": 9,
-        			"height": 9,
-        			"angle": 0,
-        			"xoffset": 0,
-        			"yoffset": 0
-        		},
-        		"value": "TC",
-        		"label": "Town Center",
-        		"description": ""
-        	}]
+          "type": "uniqueValue",
+          "field1": "district",
+          "field2": null,
+          "field3": null,
+          "fieldDelimiter": ", ",
+          "defaultSymbol": null,
+          "defaultLabel": null,
+          "uniqueValueInfos": [{
+            "symbol": {
+              "color": [255,
+                0,
+                0,
+                201],
+              "size": 12,
+              "angle": 0,
+              "xoffset": 0,
+              "yoffset": 0,
+              "type": "esriSMS",
+              "style": "esriSMSCircle",
+              "outline": {
+                "color": [168,
+                  0,
+                  0,
+                  255],
+                "width": 1.5,
+                "type": "esriSLS",
+                "style": "esriSLSSolid"
+              }
+            },
+            "value": "HW",
+            "label": "Hunter Woods",
+            "description": ""
+          },
+            {
+              "symbol": {
+                "color": [0,
+                  112,
+                  255,
+                  203],
+                "size": 12,
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0,
+                "type": "esriSMS",
+                "style": "esriSMSSquare",
+                "outline": {
+                  "color": [0,
+                    77,
+                    168,
+                    255],
+                  "width": 1.5,
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid"
+                }
+              },
+              "value": "LA",
+              "label": "Lake Anne",
+              "description": ""
+            },
+            {
+              "symbol": {
+                "color": [255,
+                  170,
+                  0,
+                  196],
+                "size": 12,
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0,
+                "type": "esriSMS",
+                "style": "esriSMSCircle",
+                "outline": {
+                  "color": [168,
+                    112,
+                    0,
+                    255],
+                  "width": 1.5,
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid"
+                }
+              },
+              "value": "NP",
+              "label": "North Point",
+              "description": ""
+            },
+            {
+              "symbol": {
+                "color": [56,
+                  168,
+                  0,
+                  203],
+                "size": 13.5,
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0,
+                "type": "esriSMS",
+                "style": "esriSMSDiamond",
+                "outline": {
+                  "color": [38,
+                    115,
+                    0,
+                    255],
+                  "width": 1.5,
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid"
+                }
+              },
+              "value": "SL",
+              "label": "South Lakes",
+              "description": ""
+            },
+            {
+              "symbol": {
+                "color": [197,
+                  0,
+                  255,
+                  201],
+                "size": 12,
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0,
+                "type": "esriSMS",
+                "style": "esriSMSDiamond",
+                "outline": {
+                  "color": [132,
+                    0,
+                    168,
+                    255],
+                  "width": 1.5,
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid"
+                }
+              },
+              "value": "TC",
+              "label": "Town Center",
+              "description": ""
+            }]
         }
       }
     }
