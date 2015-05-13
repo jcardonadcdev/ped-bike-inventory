@@ -40,7 +40,7 @@
         self = this,
         defaultMapProperties = {
           zoom: 13,
-          sliderPosition: "bottom-left",
+          sliderPosition: "top-right",
           center: [-77.347, 38.955],
           basemap: "topo"
         };
@@ -71,22 +71,22 @@
           "esri/layers/FeatureLayer",
           "esri/layers/ArcGISTiledMapServiceLayer",
           "esri/layers/LabelLayer",
-          
+
           "esri/renderers/SimpleRenderer",
           "esri/renderers/UniqueValueRenderer",
           "esri/renderers/jsonUtils",
-          
+
           "esri/symbols/TextSymbol",
           "esri/symbols/SimpleMarkerSymbol",
           "esri/symbols/SimpleLineSymbol",
-          
+
           "esri/graphic",
           "esri/geometry/Extent",
           "esri/geometry/webMercatorUtils",
           "esri/Color"
         ], function(Map, FeatureLayer, ArcGISTiledMapServiceLayer, LabelLayer,
           SimpleRenderer, UniqueValueRenderer, rndJsonUtils,
-          TextSymbol, SimpleMarkerSymbol, SimpleLineSymbol, 
+          TextSymbol, SimpleMarkerSymbol, SimpleLineSymbol,
           Graphic, Extent, webMercatorUtils, Color) {
           // create the map object
           var mapid = $attrs.id,
@@ -109,7 +109,7 @@
               g = new Graphic(lm);
               g.geometry.setSpatialReference(esriMap.spatialReference);
               inventoryLayer.add(g);
-              
+
               if(g.geometry.x > extent.xmax){
                 extent.xmax = g.geometry.x;
               }
@@ -127,6 +127,8 @@
             extent.spatialReference = esriMap.spatialReference;
             console.log("extent: ", extent);
             esriMap.setExtent(extent, true);
+
+            $scope.fullExtent = extent;
           }
 
           //function to make renderer
@@ -173,20 +175,20 @@
             esriMap.addLayer(inventoryLayer);
             //console.log("loading map points");
             loadMapPoints();
-            
+
             // create a text symbol to define the style of labels
             var inventoryLabel = new TextSymbol().setColor(new Color([0, 0, 0]));
             inventoryLabel.font.setSize("10pt");
             inventoryLabel.font.setFamily("arial");
             var inventoryLabelRenderer = new SimpleRenderer(inventoryLabel);
-            
+
             //create label layer
             var labels = new LabelLayer({ id: "labels" });
-            
-            // tell the label layer to label the inventory feature layer 
+
+            // tell the label layer to label the inventory feature layer
             // using the field named "district_id"
             labels.addFeatureLayer(inventoryLayer, inventoryLabelRenderer, "{district_id}");
-            
+
             // add the label layer to the map
             esriMap.addLayer(labels);
 
@@ -195,7 +197,7 @@
               new Color([255, 255, 0]), 2), new Color([255, 255, 0, 0.2])),
               gMemorial,
               geom;
-              
+
 
             if($scope.mapSelectionInfo.selectedMemorial){
               geom = $scope.mapSelectionInfo.selectedMemorial.geometry;
@@ -219,7 +221,7 @@
             //console.log("adding selection graphic: ", gMemorial);
             esriMap.graphics.add(gMemorial);
             $scope.mapSelectionInfo.memorialUnitGraphic = gMemorial;
-            
+
             self.setLocatorPosition({
               feat: $scope.mapSelectionInfo.selectedMemorial
             });
@@ -231,7 +233,7 @@
                 ext = new Extent(mappt.x - 200, mappt.y - 200, mappt.x + 200, mappt.y + 200, mappt.spatialReference),
                 garray = inventoryLayer.graphics,
                 selectedFeature;
-              
+
               selectedFeature = layerQueryService.getClosestFeature(ext, garray);
               //console.log("selectedFeature: ", selectedFeature);
               self.setLocatorPosition(selectedFeature);
@@ -262,6 +264,13 @@
           //console.log("setting $scope.pageConfigProperties.selectedUnitId: ", newId);
           $scope.pageConfigProperties.selectedUnitId = newId;
         });
+      };
+
+      $scope.zoomFullExtent = function(){
+        console.log("zooming to extent");
+        if($scope.fullExtent){
+          esriMap.setExtent($scope.fullExtent, true);
+        }
       };
 
       this.resizeMap = function(){

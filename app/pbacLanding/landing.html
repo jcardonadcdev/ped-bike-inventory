@@ -8,16 +8,16 @@
       <h2 class="landingTitle">Select the district</h2>
       <select name="districts" ng-model="inventoryConfig.district" ng-options="district.label for district in districts">
         <option value="">-- Choose District --</option>
-      </select> 
+      </select>
     </div>
     <div class="landingText">
       <h2 class="landingTitle">Who are you</h2>
       <select name="workers" ng-model="inventoryConfig.worker" ng-options="worker.id for worker in workers">
         <option value="">-- Choose Worker --</option>
-      </select> 
+      </select>
     </div>
     <div class="landingText">
-      <button class="pmmButton pmmButtonLrg" ng-hide="cannotStart" ng-click="startInventory()">Start</button>
+      <button class="pmmButton pmmButtonLrg" ng-hide="false" ng-click="startInventory()">Start</button>
     </div>
   </div>
 </div>

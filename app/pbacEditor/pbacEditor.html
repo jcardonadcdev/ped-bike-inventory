@@ -1,5 +1,5 @@
-<div style="width:100%; height:100%; position:absolute; top:0;right:0;left:0;bottom:0">
-  <div class="editingCanvas">
+<div class="scrollable">
+  <div class="editingCanvas scrollable-content">
     <div class="editText">
       <span class="editLabel">ID: </span><span>{{orgFeat.attributes.district_id}}</span>
     </div>
@@ -8,14 +8,19 @@
     </div>
     <div class="editText">
       <div class="editLabel">Comment: </div>
-      <textarea rows="3" name="comments" style="width: 95%"" ng-model="editFeature.attributes.inventory_comment"></textarea>
+      <textarea rows="3" name="comments" style="width: 95%" ng-model="editFeature.attributes.inventory_comment"></textarea>
+    </div>
+    <div class="editText">
+      <div class="editLabel">Worker: </div>
+      <select name="workers" ng-model="inventoryConfig.worker" ng-options="worker.id for worker in workers">
+      </select>
     </div>
     <div>
       <input type="button" value="Apply" ng-click="applyEdits()">
     </div>
   </div>
-  
-  <div class="nonEditingCanvas"> 
+
+  <div class="nonEditingCanvas scrollable-content">
     <!--<h1 class="landingText">Edit the stuff here</h1>--></h1>
     <div class="editText">
       <div class="editLabel">Location: </div><div class="editEntry">{{orgFeat.attributes.location}}</div>
@@ -30,9 +35,5 @@
       <div class="editLabel">Recommendation: </div><div class="editEntry">{{orgFeat.attributes.recommendation}}</div>
     </div>
   </div>
-<!--  <div class="editText">
-    <div class="editLabel">Comment: </div><textarea class="editEntry" rows="2" ng-model="editFeature.attributes.inventory_comment"></div>
-  </div>-->
 </div>
 
-  

@@ -1,5 +1,5 @@
 <div class="scrollable">
-  <div class="scrollable-content" style="position: relative">
+  <div class="scrollable-content">
     <div ng-show="pageConfigProperties.selectedUnitId !== null" class="editCanvas mapSidebar">
       <div class="editText">
         <div class="editLabel">ID:</div>
@@ -9,8 +9,10 @@
         <div class="editLabel">Location:</div>
         <span class="editContent">{{selectedMemorial.attributes.location}}</span>
       </div>
-      
       <button class="pmmButton" ng-click="startEdit()">Edit</button>
+    </div>
+    <div id="homeButton">
+      <a ng-click="zoomFullExtent()" class="mapNavButtonContainer"><i class="fa fa-globe mapNavButton"></i></a>
     </div>
     <pbac-inventory-locator-map id="map"></pbac-inventory-locator-map>
   </div>
