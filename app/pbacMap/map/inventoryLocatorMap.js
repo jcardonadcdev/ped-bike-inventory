@@ -42,7 +42,7 @@
           zoom: 13,
           sliderPosition: "top-right",
           center: [-77.347, 38.955],
-          basemap: "topo"
+          basemap: "streets"
         };
 
       //default selection info
@@ -177,9 +177,10 @@
             loadMapPoints();
 
             // create a text symbol to define the style of labels
-            var inventoryLabel = new TextSymbol().setColor(new Color([0, 0, 0]));
+            var inventoryLabel = new TextSymbol().setColor(new Color([0, 0, 139]));
             inventoryLabel.font.setSize("10pt");
             inventoryLabel.font.setFamily("arial");
+            inventoryLabel.font.setWeight("bold");
             var inventoryLabelRenderer = new SimpleRenderer(inventoryLabel);
 
             //create label layer
