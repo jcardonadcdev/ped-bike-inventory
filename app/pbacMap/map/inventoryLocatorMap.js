@@ -42,7 +42,7 @@
           zoom: 13,
           sliderPosition: "top-right",
           center: [-77.347, 38.955],
-          basemap: "streets"
+          basemap: "topo"
         };
 
       //default selection info
