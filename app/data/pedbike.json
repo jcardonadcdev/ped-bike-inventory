@@ -1,0 +1,2281 @@
+{
+  "features": [
+    {
+      "attributes": {
+        "ObjectID": 1,
+        "X": -77.377187,
+        "Y": 38.948252,
+        "district": "HW",
+        "location": "Fairfax County Pkwy & Sunrise Valley Dr",
+        "existing_ped_protection": "Standard N, E & S crosswalks with no pedestrian signal",
+        "recommendation": "North, East, and South: high visibility crosswalks with pedestrian signal",
+        "comments_landuse": "Dangerous crossings; high volumes, turning movements & high speeds; substantial bike traffic",
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "HW1",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8613569.6077842284,
+        "y": 4714275.38155118
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 2,
+        "X": -77.339328,
+        "Y": 38.944692,
+        "district": "HW",
+        "location": "Sunrise Valley Dr & Wiehle Ave",
+        "existing_ped_protection": "Signal and standard N & W crosswalks with pedestrian signal",
+        "recommendation": "North and West: high visibility crosswalks",
+        "comments_landuse": "Increasing pedestrian movement will occur when the rail station opens and planned new development begins",
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "HW7",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8609374.5524772331,
+        "y": 4713752.225931596
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 3,
+        "X": -77.359349,
+        "Y": 38.94602,
+        "district": "HW",
+        "location": "Sunrise Valley Dr & Reston Pkwy",
+        "existing_ped_protection": "Signal and standard W, S & E crosswalks with pedestrian signal ",
+        "recommendation": "North: Channelized right turns; West: Re-align crosswalk; South: Re-align crosswalk; East: re-align crosswalk, channelize right turns, decrease right turn radius; All approaches: high visibility crosswalks, pedestrian countdown signals, upgrade curb ramps",
+        "comments_landuse": "Metrorail access. Dangerous crossing; high speeds and few pedestrian crossings in the area. RMAG study, Table 3-4 No. I13. ",
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "HW5",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8611603.2665327489,
+        "y": 4713942.3789688088
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 4,
+        "X": -77.364619,
+        "Y": 38.948872,
+        "district": "HW",
+        "location": "Sunrise Valley & Edmund Halley Dr",
+        "existing_ped_protection": null,
+        "recommendation": "North: upgrade curb ramps; East: construct/upgrade curb ramps; West: construct/upgrade curb ramps; All approaches: high visibility crosswalks, pedestrian countdown signals, pedestrian median refuges. ",
+        "comments_landuse": "Metrorail access. From RMAG, Table 3-7, No. I15. ",
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "HW4",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8612189.89998908,
+        "y": 4714350.5862868354
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 5,
+        "X": -77.374601,
+        "Y": 38.948722,
+        "district": "HW",
+        "location": "Sunrise Valley Dr & Glade Dr",
+        "existing_ped_protection": null,
+        "recommendation": "East: Pedestrian median refuge, upgrade or construct curb ramps; South: re-align crosswalk, constructEast: Pedestrian median refuge, upgrade/ construct curb ramps; South: Re-align crosswalk, construct/upgrade curb ramps; West: Re-align crosswalk, pedestri",
+        "comments_landuse": "Metrorail access. From RMAG, Table 3-7, No. I17. ",
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "HW2",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8613301.0527409539,
+        "y": 4714329.0345870573
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 6,
+        "X": -77.35787,
+        "Y": 38.945812,
+        "district": "HW",
+        "location": "Colts Neck & Sunrise Valley Dr",
+        "existing_ped_protection": "Signal and standard S & E crosswalks without pedestrian signal ",
+        "recommendation": "West: Re-align stop bar, upgrade curb ramps; North: Upgrade 1 curb ramp; East: extend median to include pedestrian refuge; All approaches: pedestrian countdown signals, high visibility crosswalks. ",
+        "comments_landuse": "Metrorail access. RMAG study, Table 3-7, No. I14. ",
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "HW6",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8611438.6147644725,
+        "y": 4713912.58803127
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 7,
+        "X": -77.366957,
+        "Y": 38.935064,
+        "district": "HW",
+        "location": "Reston Parkway & Glade Dr",
+        "existing_ped_protection": "Traffic signal; all approaches pedestrian signals & standard crosswalks",
+        "recommendation": "All approaches: high visibility crosswalks",
+        "comments_landuse": null,
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "HW13",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8612450.18777905,
+        "y": 4712374.3561185608
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 8,
+        "X": -77.354537,
+        "Y": 38.959682,
+        "district": "HW",
+        "location": "Colts Neck & Glade Dr and nearby E & S underpasses",
+        "existing_ped_protection": "Standard S & E crosswalks with pedestrian signal",
+        "recommendation": "South and East: pedestrian signal; All approaches: high visibility crosswalks",
+        "comments_landuse": null,
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "HW14",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8612085.5445343163,
+        "y": 4712366.9505992727
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 9,
+        "X": -77.372599,
+        "Y": 38.92704,
+        "district": "HW",
+        "location": "Fox Mill Rd & Reston Pkwy",
+        "existing_ped_protection": "Signal",
+        "recommendation": "high visibility crosswalk to connect proposed sidewalk with existing sidewalk",
+        "comments_landuse": "Proposed new workforce housing at Park & Ride site will substantially increase pedestrian volume.",
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "HW19",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8613078.2306388114,
+        "y": 4711226.06299442
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 10,
+        "X": -77.3698,
+        "Y": 38.930981,
+        "district": "HW",
+        "location": "Reston Parkway & Oslo Dr",
+        "existing_ped_protection": "None",
+        "recommendation": "East: Bus stop pad; South: high visibility crosswalk ",
+        "comments_landuse": null,
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "HW18",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8612766.6739894375,
+        "y": 4711790.0539685842
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 11,
+        "X": -77.354537,
+        "Y": 38.959682,
+        "district": "HW",
+        "location": "Glade Drive at Dogwood Elementary School",
+        "existing_ped_protection": "Standard crosswalk SE",
+        "recommendation": "High visibility crosswalks at school entrances and change existing standard crosswalk to high visibility ",
+        "comments_landuse": "Primary school crossing",
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "HW11",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8613034.0868947357,
+        "y": 4713416.8620680766
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 12,
+        "X": -77.354537,
+        "Y": 38.959682,
+        "district": "HW",
+        "location": "Colts Neck Rd at 2 Hunters Woods Elementary School entrances",
+        "existing_ped_protection": "Sotuth: Standard crosswalk at school entrance ",
+        "recommendation": "high visibility crosswalks at 2 entrances across Colts Necks; South: change existing standard crosswalk to high visibility crosswalk",
+        "comments_landuse": "Primary school crossing",
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "HW16",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8611942.2186861653,
+        "y": 4712053.4724113252
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 13,
+        "X": -77.354537,
+        "Y": 38.959682,
+        "district": "HW",
+        "location": "Colts Neck Rd at Hunters Woods Village Center",
+        "existing_ped_protection": "None ",
+        "recommendation": "North and South: high visibility crosswalks across Colts Neck at entrances to village center ",
+        "comments_landuse": "Connects residential and village center. New elderly housing planned for existing UCP church site",
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "HW12",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8612083.650099216,
+        "y": 4712614.3109194394
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 14,
+        "X": -77.354537,
+        "Y": 38.959682,
+        "district": "HW",
+        "location": "Lawyers Rd between Fox Mill Rd & Farrier Lane",
+        "existing_ped_protection": "None",
+        "recommendation": "high visibility crosswalk with advance signs at entrance to new trail ",
+        "comments_landuse": "Consider moving crosswalk to Tack Lane or Farrier Lane",
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "HW20",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8612889.2286224756,
+        "y": 4710901.1258037332
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 15,
+        "X": -77.351967,
+        "Y": 38.927983,
+        "district": "HW",
+        "location": "Glade Dr & Triple Crown Dr",
+        "existing_ped_protection": "None",
+        "recommendation": "Standard crosswalk between proposed curb cuts",
+        "comments_landuse": null,
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "HW15",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8610781.4867934417,
+        "y": 4711361.0377187757
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 16,
+        "X": -77.3588,
+        "Y": 38.922873,
+        "district": "HW",
+        "location": "Lawyers Rd & Blue Spruce Rd",
+        "existing_ped_protection": "None",
+        "recommendation": "high visibility crosswalk",
+        "comments_landuse": null,
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "HW21",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8611542.13832869,
+        "y": 4710629.7875684062
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 17,
+        "X": -77.359057,
+        "Y": 38.942021,
+        "district": "HW",
+        "location": "Colts Neck Rd & South Lakes Dr",
+        "existing_ped_protection": "All approaches: standard crosswalks with pedestrian signal",
+        "recommendation": "All approaches: high visibility crosswalks",
+        "comments_landuse": null,
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "HW9",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8611570.7305172589,
+        "y": 4713370.0288553806
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 18,
+        "X": -77.368498,
+        "Y": 38.9509,
+        "district": "HW",
+        "location": "Sunrise Valley Dr & Mercator Dr",
+        "existing_ped_protection": "Signal",
+        "recommendation": "North: High visibility crosswalk, upgrade curb ramps, pedestrian countdown signal; West: high visibility crosswalk, pedestrian countdown signal, pedestrian median refuge, upgrade/construct curb ramps, decrease right turn curb radius; South: high visibilit",
+        "comments_landuse": "Metrorail access and office development under construction. Recommended by RMAG, Table 3-7, No. I12.  ",
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "HW3",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8612621.7411331162,
+        "y": 4714640.905310601
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 19,
+        "X": -77.36275,
+        "Y": 38.931792,
+        "district": "HW",
+        "location": "Colts Neck Rd & Steeplechase Dr",
+        "existing_ped_protection": "None ",
+        "recommendation": "East: Move crosswalk to align with curb cut ",
+        "comments_landuse": null,
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "HW17",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8611981.8670152444,
+        "y": 4711906.0244368492
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 20,
+        "X": -77.361391,
+        "Y": 38.943071,
+        "district": "HW",
+        "location": "Reston Pkwy & South Lakes Dr",
+        "existing_ped_protection": "All approaches: standard crosswalks with pedestrian signal ",
+        "recommendation": "All approaches: upgrade curb-ramps, high visibility crosswalks, pedestrian countdown signals.",
+        "comments_landuse": "Metrorail access. RMAG Table 3-7, No. I16.:  ",
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "HW8",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8611830.5253845248,
+        "y": 4713520.2438369626
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 21,
+        "X": -77.367068,
+        "Y": 38.940923,
+        "district": "HW",
+        "location": "Glade Dr & Pinecrest Rd",
+        "existing_ped_protection": "North and East: standard crosswalks; NE stop sign",
+        "recommendation": "East: High visibililty crosswalk",
+        "comments_landuse": "Increasing pedestrian volume with new Southgate Community center.",
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "HW10",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8612462.5119598769,
+        "y": 4713212.8443363737
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 22,
+        "X": -77.354537,
+        "Y": 38.959682,
+        "district": "LA",
+        "location": "Wiehle Ave & W&OD Trail",
+        "existing_ped_protection": "high visibility  E-W crosswalk without pedestrian signal",
+        "recommendation": "New traffic signal & pedestrian signal; should be coordinated with signal at Sunset Hills Rd",
+        "comments_landuse": "This is an extremely dangerous crossing because of high volume of traffic and vehicles turning; Consider grade separation with interim adjustments to improve safety. ",
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "LA8",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8608977.753261745,
+        "y": 4714577.3582725134
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 23,
+        "X": -77.354537,
+        "Y": 38.959682,
+        "district": "LA",
+        "location": "Wiehle Ave & Dulles Toll Rd ramps W",
+        "existing_ped_protection": "Standard W crosswalks (without pedestrian signal)",
+        "recommendation": "West: high visibility crosswalk, pedestrian countdown signal, upgrade curb ramps. ",
+        "comments_landuse": "Metrorail access. RMAG, Table 3-10, No. I32. ",
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "LA11",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8609148.11360483,
+        "y": 4714175.1161647681
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 24,
+        "X": -77.354537,
+        "Y": 38.959682,
+        "district": "LA",
+        "location": "Reston Pkwy & Dulles Toll Rd ramps W",
+        "existing_ped_protection": "2 signals (N & S ramps) and standard W crosswalks without pedestrian signal",
+        "recommendation": "North: realign pedestrian refuge island, decrease right turn radius; West: Realign crosswalks, high visibility crosswalks, pedestrian countdown signal, upgrade curb ramps. ",
+        "comments_landuse": "Metrorail access. RMAG, Table 3-3, No. I29. ",
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "LA17",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8611238.9583596755,
+        "y": 4714927.8203226812
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 25,
+        "X": -77.354279,
+        "Y": 38.960142,
+        "district": "LA",
+        "location": "Reston Parkway & Temporary Rd",
+        "existing_ped_protection": "Signal and standard N, E & W crosswalks with pedestrian signal",
+        "recommendation": "North, West, and East: high visibility crosswalks",
+        "comments_landuse": "Connects residential areas to Reston Town Center residential, offices, services, and retail. ",
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "LA21",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8611038.8166019,
+        "y": 4715963.9269733727
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 26,
+        "X": -77.336038,
+        "Y": 38.950094,
+        "district": "LA",
+        "location": "Sunset Hills Rd & Wiehle Ave",
+        "existing_ped_protection": "Traffic signal; All approaches: standard crosswalks with pedestrian signal",
+        "recommendation": "North: Decrease right turn radius; extend median to include pedestrian refuge; East: raised median; South: Decrease right turn radius; West: channelize righ turns, decrease right turn radius; All approaches: high visibility crosswalks, updgraded curb ramp",
+        "comments_landuse": "Metrorail access. RMAG, Table 3-10, No. I. 21. ",
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "LA9",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8609008.2761755642,
+        "y": 4714525.5374101177
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 27,
+        "X": -77.354537,
+        "Y": 38.959682,
+        "district": "LA",
+        "location": "Isaac Newton Sq (W) & Sunset Hills Rd",
+        "existing_ped_protection": "East: standard crosswalk with signal",
+        "recommendation": "East: upgrade curb ramps, decrease right turn radius; North: decrease right turn radius, upgrade/construct curb ramps; West: construct curb ramps; South: construct/upgrade curb ramps; All approaches: high visibility crosswalks, pedestrian countdown signal",
+        "comments_landuse": "Metrorail access. RMAG, Table 3-10, No. I. 22. ",
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "LA12",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8609473.0412835181,
+        "y": 4714692.0819036486
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 28,
+        "X": -77.354537,
+        "Y": 38.959682,
+        "district": "LA",
+        "location": "Isaac Newton Sq (N) & Wiehle Ave",
+        "existing_ped_protection": null,
+        "recommendation": "South: potential infill of striped lane area; East: upgrade curb ramps, high visibility crosswalk; North: Channelize right turns, median pedestrian refuge, high visibility crosswalk, pedestrian warning signs, pedestrian knockdown signs, West: high visibil",
+        "comments_landuse": "Metrorail access. RMAG, Table 3-10, No. I19. ",
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "LA6",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8608869.849832166,
+        "y": 4715005.7173414994
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 29,
+        "X": -77.354537,
+        "Y": 38.959682,
+        "district": "LA",
+        "location": "Isaac Newton Sq (S) & Wiehle Ave",
+        "existing_ped_protection": null,
+        "recommendation": "South: pedestrian median refuge; All approaches: upgrade curb ramps, high visibility crosswalks, pedestrian countdown signals. ",
+        "comments_landuse": "Metrorail access. RMAG, Table 3-10, No. I20. ",
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "LA7",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8608939.2364952937,
+        "y": 4714748.8542390615
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 30,
+        "X": -77.341007,
+        "Y": 38.970261,
+        "district": "LA",
+        "location": "North Shore Dr & Village Rd",
+        "existing_ped_protection": "None",
+        "recommendation": "East: high visibility crosswalk",
+        "comments_landuse": "Connects residential areas with Lake Anne Village Center. Increasing pedestrian volume as revitalization of Lake Anne occurs.",
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "LA2",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8609561.3877710011,
+        "y": 4717412.6654913239
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 31,
+        "X": -77.354537,
+        "Y": 38.959682,
+        "district": "LA",
+        "location": "Wiehle Ave & North Shore Dr at pedestrian overpass",
+        "existing_ped_protection": "Signal; standard W crosswalk and S pedestrian",
+        "recommendation": "West: high visibility crosswalk with pedestrian countdown signal ",
+        "comments_landuse": "This modification is an important addition to the project that is adding sidewalks to the western side of Wiehle Ave between North Shore Dr and Baron Cameron Ave; One possibility is to open up the concrete wall for direct access to the pedestrian overpass",
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "LA1",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8608721.010997558,
+        "y": 4717342.2709561372
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 32,
+        "X": -77.333789,
+        "Y": 38.962693,
+        "district": "LA",
+        "location": "Fairway Dr & Wiehle Ave",
+        "existing_ped_protection": "Standard W crosswalk ",
+        "recommendation": "Traffic signal, West: high visibility crosswalk; South: high visibility crosswalk w/ pedestrian activated signal",
+        "comments_landuse": "Connects residential areas to heavily utilized church, school, and garden plots. Need complement to recently completed motor vehicle safety improvements; consider refuge islands.",
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "LA4",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8608757.8478415757,
+        "y": 4716329.1035560165
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 33,
+        "X": -77.354537,
+        "Y": 38.959682,
+        "district": "LA",
+        "location": "Sunset Hills Rd & Plaza America entrance (E)",
+        "existing_ped_protection": "Signal and standard E crosswalk with pedestrian signal",
+        "recommendation": "East: high visibility crosswalk",
+        "comments_landuse": "Metrorail access. RMAG Table 3-10, No. I23. East: Realign crosswalk, high visibility crosswalk, pedestrian countdown signal, extend median to include pedestrian refuge; North: high visibility crosswalk, pedestrian countdown signal; All approaches: upgrade",
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "LA13",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8610214.4444542937,
+        "y": 4714898.548544161
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 34,
+        "X": -77.354537,
+        "Y": 38.959682,
+        "district": "LA",
+        "location": "Sunset Hills Rd & Plaza America entrance (W)",
+        "existing_ped_protection": "None",
+        "recommendation": "South: Standard crosswalk ",
+        "comments_landuse": "Metrorail access. This is part of the route that will be used to access the rail station. ",
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "LA14",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8610520.76174051,
+        "y": 4715054.65336151
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 35,
+        "X": -77.350749,
+        "Y": 38.960293,
+        "district": "LA",
+        "location": "North Shore Dr & Temporary Rd",
+        "existing_ped_protection": "None",
+        "recommendation": "West: high visibility crosswalk",
+        "comments_landuse": "Increasingly heavy traffic with large turning volumes",
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "LA22",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8610645.9202477578,
+        "y": 4715985.482146576
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 36,
+        "X": -77.354537,
+        "Y": 38.959682,
+        "district": "LA",
+        "location": "Sunset Hills Rd & N entrances between Reston Pkwy and Old Reston Ave",
+        "existing_ped_protection": "None",
+        "recommendation": "Standard crosswalks across all entrances and high visibility brick crosswalk across Old Reston Ave",
+        "comments_landuse": "Recommended by RMAG, Table 3-3, No. I8. North: High visibility crosswalk, pedestrian countdown signal, ugrade/construct curb ramps; South: pedestrian countdown signal, upgraded curb ramps, high visibility crosswalk, extend median to include pedestrian ref",
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 0,
+        "district_id": "LA15",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8610913.5590203069,
+        "y": 4715273.6884499649
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 37,
+        "X": -77.35559,
+        "Y": 38.955112,
+        "district": "LA",
+        "location": "Reston Pkwy & Sunset Hills Rd",
+        "existing_ped_protection": null,
+        "recommendation": "East: Realign right turn channelization; South: Realign right turn channelization, extend median to include pedestrian refuge; All approaches: High visibility crosswalk, pedestrian countdown signal, decrease right turn radius, upgrade curb ramps",
+        "comments_landuse": "Reccomended by RMAG. Table 3-3, No. I7",
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "LA16",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8611184.7356375884,
+        "y": 4715243.7557489825
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 38,
+        "X": -77.354537,
+        "Y": 38.959682,
+        "district": "LA",
+        "location": "Sunset Hills Rd & Northrup Grumman entrance (E)",
+        "existing_ped_protection": "North: high visibility crosswalk and pedestrian signal; South and West: high visibility crosswalks",
+        "recommendation": "East: Median pedestrian refuge; West: median pedestrian refuge; All approaches: high visibility crosswalk, pedestrian countdown signal, upgrade curb ramps. ",
+        "comments_landuse": "From RMAG, Table 3-3, No. I29. ",
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 0,
+        "district_id": "LA18",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8611353.4697142281,
+        "y": 4715242.3883741125
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 39,
+        "X": -77.354537,
+        "Y": 38.959682,
+        "district": "LA",
+        "location": "Sunset Hills Rd & Northrup Grumman entrance (W)",
+        "existing_ped_protection": "West: signal and standard crosswalk (without pedestrian signal)",
+        "recommendation": "North and South: Standard crosswalks",
+        "comments_landuse": null,
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 0,
+        "district_id": "LA19",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8611562.27379818,
+        "y": 4715115.1116603641
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 40,
+        "X": -77.354537,
+        "Y": 38.959682,
+        "district": "LA",
+        "location": "Sunset Hills Rd & W entrance to 12020 - 12030 and undeveloped parcel",
+        "existing_ped_protection": "None",
+        "recommendation": "Traffic signal; North: standard crosswalk and pedestrian signal",
+        "comments_landuse": "This will become a major signalized intersection when development is completed.",
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 0,
+        "district_id": "LA20",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8611780.3512409963,
+        "y": 4715042.3011300778
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 41,
+        "X": -77.343057,
+        "Y": 38.966674,
+        "district": "LA",
+        "location": "North Shore Dr & Hickory Cluster",
+        "existing_ped_protection": "None",
+        "recommendation": "North: standard crosswalk",
+        "comments_landuse": "Heavy pool parking on both sides of North Shore Dr",
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "LA3",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8609789.6325795,
+        "y": 4716899.0844567586
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 42,
+        "X": -77.354537,
+        "Y": 38.959682,
+        "district": "LA",
+        "location": "North Shore Dr & Wiehle (Southern intersection)",
+        "existing_ped_protection": "North and East: standard crosswalks with pedestrian signals",
+        "recommendation": "South and West: standard crosswalk with pedestrian signals",
+        "comments_landuse": "Metrorail access. This intersection connects residential areas to Tall Oaks Plaza, daycare, and pool.",
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "LA5",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8608851.5211893264,
+        "y": 4715661.7300313134
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 43,
+        "X": -77.354537,
+        "Y": 38.959682,
+        "district": "LA",
+        "location": "Wiehle Ave & Station entrance",
+        "existing_ped_protection": null,
+        "recommendation": "North: extend median to include pedestrian refuge; South: extend median as much as possible, wide curb lanes to accommodate bikes; All approaches: upgrade curb ramps, pedestrian countdown signals, high visibility crosswalk. ",
+        "comments_landuse": "Metrorail access. RMAG, Table 3-10, No. I18. ",
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "LA10",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8609094.761512477,
+        "y": 4714328.038777845
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 44,
+        "X": -77.341428,
+        "Y": 38.971041,
+        "district": "NP",
+        "location": "Baron Cameron Ave & Village Rd",
+        "existing_ped_protection": "Traffic East: signal & standard E crosswalk with pedestrian signal; underpass 1/4 mi E",
+        "recommendation": "East: high visibility crosswalk; East at Trail crossing 100' North of intersection: standard crosswalk ",
+        "comments_landuse": "Increasing pedestrian volume as revitalization occurs",
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "NP8",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8609608.2198807783,
+        "y": 4717524.2617215831
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 45,
+        "X": -77.333771,
+        "Y": 38.9736,
+        "district": "NP",
+        "location": "Baron Cameron Ave & Wiehle Ave",
+        "existing_ped_protection": "Traffic signal; North and West: standard crosswalk with pedestrian signal",
+        "recommendation": "North and West: high visibility crosswalks; re-grade median to accommodate bicyclists and pedestrians",
+        "comments_landuse": "New trail along west side of Wiehle south of this intersection is to be completed soon (by FCDOT). Will connect residential areas, Baron Cameron Park, church, Lake Anne area. This is also a point that connects North Point to the W&OD trail. ",
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "NP10",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8608755.8759281188,
+        "y": 4717890.7628497193
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 46,
+        "X": -77.315309,
+        "Y": 38.97763,
+        "district": "NP",
+        "location": "Route 7 & Baron Cameron Ave",
+        "existing_ped_protection": "None",
+        "recommendation": "North: high visibility crosswalk and pedestrian signal",
+        "comments_landuse": "Countywide Trails Plan: This improvement would fix a gap in the County trail system. ",
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "NP15",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8606700.6870288067,
+        "y": 4718467.8068982754
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 47,
+        "X": -77.319657,
+        "Y": 38.974801,
+        "district": "NP",
+        "location": "Lake Fairfax Dr & Baron Cameron Ave",
+        "existing_ped_protection": "None",
+        "recommendation": "East: high visibility crosswalk; connect crosswalk with ramp to trail on N side of Baron Cameron",
+        "comments_landuse": "Countywide Trail Plan: This would fix a gap in County trail system. ",
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "NP13",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8607184.7828776576,
+        "y": 4718062.6043786481
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 48,
+        "X": -77.354537,
+        "Y": 38.959682,
+        "district": "NP",
+        "location": "Hunter Mill Rd & Baron Cameron Ave",
+        "existing_ped_protection": "East: high visibility crosswalk",
+        "recommendation": "West: high visibility crosswalk",
+        "comments_landuse": "This would correct a gap in the pedestrian system.",
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "NP14",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8606908.8279825523,
+        "y": 4718180.9853280354
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 49,
+        "X": -77.349461,
+        "Y": 38.977201,
+        "district": "NP",
+        "location": "Reston Parkway & Lake Newport Rd",
+        "existing_ped_protection": "Sotuh: standard crosswalk with pedestrian signal; East: standard crosswalk; West: standard crosswalk with pedestrian signal; North: pedestrian signal ",
+        "recommendation": "South and West: high visibility crosswalk",
+        "comments_landuse": "North: standard crosswalk completed. Gap in a main pedestrian link from Lake Anne Village Center to North Point Village Center. This is the most important point of access to North Point Village Center and the principal focus of pedestrian movement in all ",
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "NP2",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8610502.4661595579,
+        "y": 4718406.2963161543
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 50,
+        "X": -77.342729,
+        "Y": 38.986642,
+        "district": "NP",
+        "location": "Wiehle Ave & Reston Pkwy",
+        "existing_ped_protection": "North: standard crosswalk",
+        "recommendation": "East: standard crosswalk",
+        "comments_landuse": null,
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "NP3",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8609753.15284841,
+        "y": 4719758.3487420361
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 51,
+        "X": -77.342729,
+        "Y": 38.986642,
+        "district": "NP",
+        "location": "Reston Pkwy & Wiehle Ave",
+        "existing_ped_protection": "4 standard crosswalks with pedestrian signal",
+        "recommendation": "All approaches:  high visibility crosswalks",
+        "comments_landuse": "Completed",
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "NP4",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8609753.15284841,
+        "y": 4719758.3487420361
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 52,
+        "X": -77.344297,
+        "Y": 38.979344,
+        "district": "NP",
+        "location": "Center Harbor Rd & North Village Rd",
+        "existing_ped_protection": "West: high visibility crosswalk",
+        "recommendation": "South: high visibility crosswalk",
+        "comments_landuse": null,
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "NP5",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8609927.6639613453,
+        "y": 4718713.2192998482
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 53,
+        "X": -77.354537,
+        "Y": 38.959682,
+        "district": "NP",
+        "location": "Baron Cameron  & entrances to Great Falls Crossing west of Lake Fairfax Dr",
+        "existing_ped_protection": "North: standard crosswalk (at W entrance to Cameron Heath Dr)",
+        "recommendation": "Standard crosswalks across all other N entrances",
+        "comments_landuse": "Crossings are dangerous because drivers are not expecting pedestrians or bicyclists.",
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "NP12",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8607675.0831183288,
+        "y": 4718041.45130723
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 54,
+        "X": -77.354537,
+        "Y": 38.959682,
+        "district": "NP",
+        "location": "Wiehle Ave & N. & S. Longwood Grove Dr & Baron Cameron Park entrance",
+        "existing_ped_protection": "None",
+        "recommendation": "Both East intersections: standard crosswalks; West park entrance: standard crosswalk",
+        "comments_landuse": null,
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "NP9",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8608865.02925294,
+        "y": 4718421.9299602713
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 55,
+        "X": -77.34563,
+        "Y": 38.971103,
+        "district": "NP",
+        "location": "Bennington Woods Rd & North Village Rd",
+        "existing_ped_protection": "None",
+        "recommendation": "West and East: Standard crosswalks",
+        "comments_landuse": null,
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "NP7",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8610076.04761056,
+        "y": 4717533.1387748271
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 56,
+        "X": -77.342539,
+        "Y": 38.97887,
+        "district": "NP",
+        "location": "Center Harbor Rd & Waterfront Rd",
+        "existing_ped_protection": null,
+        "recommendation": "South: standard crosswalk with pedestrian signal",
+        "comments_landuse": "Completed ",
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "NP6",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8609731.9551683348,
+        "y": 4718645.3656741064
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 57,
+        "X": -77.353929,
+        "Y": 38.967024,
+        "district": "NP",
+        "location": "Reston Parkway & Baron Cameron",
+        "existing_ped_protection": "North: high visibility crosswalk",
+        "recommendation": "West: high visibility crosswalk, Southwest corner: Fix uneven pavement at SW corner of intersection. ",
+        "comments_landuse": "Connects retail areas in Town Center. Pedestrians are forced to walk on uneven, unpaved surface at the southwest corner of this intersection which is especially problematic for visually impaired persons and bicyclists. ",
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "NP1",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8610999.8721459657,
+        "y": 4716949.1732913712
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 58,
+        "X": -77.333771,
+        "Y": 38.9736,
+        "district": "NP",
+        "location": "Baron Cameron Ave & Wiehle Ave",
+        "existing_ped_protection": "Standard crosswalks",
+        "recommendation": "All approaches: high visibility crosswalks with pedestrian countdown signals",
+        "comments_landuse": "This is an important crossing from North Point into Lake Anne, and also for North Point residents to reach the W&OD trail. There is currently very little pedestrian protection at this location. High vehicle speeds make it very dangerous and uncomfortable ",
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "NP11",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8608755.8759281188,
+        "y": 4717890.7628497193
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 59,
+        "X": -77.329289,
+        "Y": 38.941663,
+        "district": "SL",
+        "location": "Sunrise Valley Dr & South Lakes ",
+        "existing_ped_protection": "Standard N, S, & W crosswalks with S & W pedestrian signal ",
+        "recommendation": "North, South, and West: high visibility crosswalks  ",
+        "comments_landuse": "Connects offices to South Lakes Village Center",
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "SL17",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8608256.99106228,
+        "y": 4713318.6901873006
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 60,
+        "X": -77.328988,
+        "Y": 38.938501,
+        "district": "SL",
+        "location": "South Lakes & Twin Branches",
+        "existing_ped_protection": "Traffic signal; North standard crosswalk with pedestrian signal ",
+        "recommendation": "North: high visibility crosswalk ",
+        "comments_landuse": "Connects residential areas with South Lakes Village Center. Vehicle/pedestrian conflicts occur because vehicles turn left out of shopping center at same time pedestrian signal is green.",
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "SL12",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8608223.4692013767,
+        "y": 4712866.1594092725
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 61,
+        "X": -77.354537,
+        "Y": 38.959682,
+        "district": "SL",
+        "location": "Glade Dr at Nature Center",
+        "existing_ped_protection": "None",
+        "recommendation": "North and South: high visibility crosswalks connecting Nature Centers at Crooked Oak Trail",
+        "comments_landuse": "Connects Nature House to trail. Improvements at Nature House will bring added pedestrian volume. ",
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "SL8",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8609722.0071020387,
+        "y": 4711040.073001856
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 62,
+        "X": -77.344399,
+        "Y": 38.926083,
+        "district": "SL",
+        "location": "Glade Dr & Soapstone Dr",
+        "existing_ped_protection": "4-way stop and standard N crosswalk ",
+        "recommendation": "East and West: Standard crosswalks ",
+        "comments_landuse": "Glade Pool has become a very popular children's attraction.",
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "SL7",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8609939.0022967644,
+        "y": 4711089.1889435956
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 63,
+        "X": -77.345099,
+        "Y": 38.938443,
+        "district": "SL",
+        "location": "Soapstone Dr & Ridge Heights",
+        "existing_ped_protection": "North: high visibility crosswalk",
+        "recommendation": "East: high visibility crosswalk ",
+        "comments_landuse": null,
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "SL5",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8610016.8913199566,
+        "y": 4712857.9201608375
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 64,
+        "X": -77.354537,
+        "Y": 38.959682,
+        "district": "SL",
+        "location": "Soapstone Dr - Trail north of Clipstone Lane",
+        "existing_ped_protection": "None",
+        "recommendation": "high visibility crosswalk",
+        "comments_landuse": null,
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "SL9",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8610212.1186561733,
+        "y": 4710129.1341815516
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 65,
+        "X": -77.346529,
+        "Y": 38.933811,
+        "district": "SL",
+        "location": "South Lakes Dr & Soapstone Dr",
+        "existing_ped_protection": "All approaches: standard crosswalks with pedestrian signal",
+        "recommendation": "All approaches: high visibility crosswalks; move SB right lane stop line back even with through/left lane",
+        "comments_landuse": null,
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "SL6",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8610176.120493196,
+        "y": 4712195.0060269106
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 66,
+        "X": -77.324759,
+        "Y": 38.93157,
+        "district": "SL",
+        "location": "Glade Dr & Twin Branches Rd",
+        "existing_ped_protection": "West: Standard crosswalk; North: high visibility crosswalk",
+        "recommendation": "West: high visibility crosswalk",
+        "comments_landuse": "Need consistency in marking crosswalks on Cross County Trail; heaviest pedestrian volume is on West side.",
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "SL10",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8607752.6834900826,
+        "y": 4711874.3383513717
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 67,
+        "X": -77.332978,
+        "Y": 38.9344,
+        "district": "SL",
+        "location": "South Lakes Dr & Ridge Heights Rd",
+        "existing_ped_protection": "2 underpasses ",
+        "recommendation": "North and West: high visibility crosswalks ",
+        "comments_landuse": null,
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "SL11",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8608667.63452624,
+        "y": 4712279.2937725624
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 68,
+        "X": -77.347229,
+        "Y": 38.945662,
+        "district": "SL",
+        "location": "Sunrise Valley Dr & Soapstone Dr",
+        "existing_ped_protection": "Standard W crosswalk with pedestrian signal",
+        "recommendation": "West: high visibility crosswalk",
+        "comments_landuse": null,
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "SL1",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8610254.0096277129,
+        "y": 4713891.0372618008
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 69,
+        "X": -77.34819,
+        "Y": 38.944311,
+        "district": "SL",
+        "location": "Soapstone Dr & Golf Course Square",
+        "existing_ped_protection": "None",
+        "recommendation": "West: standard crosswalk",
+        "comments_landuse": null,
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "SL2",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8610360.9839848187,
+        "y": 4713697.7160275746
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 70,
+        "X": -77.346751,
+        "Y": 38.941441,
+        "district": "SL",
+        "location": "Soapstone Dr & Durand Dr",
+        "existing_ped_protection": "None",
+        "recommendation": "East: standard crosswalk",
+        "comments_landuse": null,
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "SL3",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8610200.768854849,
+        "y": 4713286.9995478606
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 71,
+        "X": -77.345497,
+        "Y": 38.93982,
+        "district": "SL",
+        "location": "Soapstone Dr & Purple Beech Dr",
+        "existing_ped_protection": "None",
+        "recommendation": "East: standard crosswalk",
+        "comments_landuse": null,
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "SL4",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8610061.2585935649,
+        "y": 4713055.0282314243
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 72,
+        "X": -77.354537,
+        "Y": 38.959682,
+        "district": "SL",
+        "location": "Sunrise Valley Dr, Upper Lake Dr & Campus Commons Dr",
+        "existing_ped_protection": "None",
+        "recommendation": "East: high visibility crosswalk with pedestrian signal; North: standard crosswalk ",
+        "comments_landuse": null,
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 0,
+        "district_id": "SL18",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8608732.5636229888,
+        "y": 4713409.9313916173
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 73,
+        "X": -77.354537,
+        "Y": 38.959682,
+        "district": "SL",
+        "location": "Sunrise Valley Dr & Preston White Dr (E intersection)",
+        "existing_ped_protection": "None",
+        "recommendation": "high visibility crosswalk",
+        "comments_landuse": null,
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "SL16",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8608006.3531136848,
+        "y": 4713291.4111734247
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 74,
+        "X": -77.319339,
+        "Y": 38.943421,
+        "district": "SL",
+        "location": "Sunrise Valley Dr & Alexander Bell Dr",
+        "existing_ped_protection": "None",
+        "recommendation": "North: standard crosswalk",
+        "comments_landuse": null,
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "SL15",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8607149.2891033,
+        "y": 4713570.3161347657
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 75,
+        "X": -77.354537,
+        "Y": 38.959682,
+        "district": "SL",
+        "location": "Sunrise Valley Dr & Parkridge Blvd (W intersection)",
+        "existing_ped_protection": "None",
+        "recommendation": "North: standard crosswalk",
+        "comments_landuse": null,
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "SL14",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8606890.2693536486,
+        "y": 4713593.092538218
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 76,
+        "X": -77.354537,
+        "Y": 38.959682,
+        "district": "SL",
+        "location": "Sunrise Valley Dr & Parkridge Blvd (E intersection)",
+        "existing_ped_protection": "None",
+        "recommendation": "North: standard crosswalk",
+        "comments_landuse": null,
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "SL13",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8606646.956004912,
+        "y": 4713505.9720049333
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 77,
+        "X": -77.34307,
+        "Y": 38.945263,
+        "district": "SL",
+        "location": "Weathersfield Ct & Sunrise Valley Dr",
+        "existing_ped_protection": "None",
+        "recommendation": "Traffic signal; East: crosswalk and pedestrian signal",
+        "comments_landuse": "The traffic signal needs to be interrupted for people leaving this cluster and for pedestrians getting to the bus. This signal would be primarily beneficial for drivers making a left turn at this intersection, but it would also aid those turning right. ",
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "SL19",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8609791.1114589386,
+        "y": 4713833.9911935451
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 78,
+        "X": -77.35466,
+        "Y": 38.958681,
+        "district": "TC",
+        "location": "Reston Pkwy & Market St",
+        "existing_ped_protection": "None",
+        "recommendation": "Signal with pedestrian phase and high visibility crosswalk",
+        "comments_landuse": "Completed",
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "TC10",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8611081.2119620536,
+        "y": 4715754.7169315489
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 79,
+        "X": -77.358619,
+        "Y": 38.957162,
+        "district": "TC",
+        "location": "Library St & Bluemont Way",
+        "existing_ped_protection": "high visibility W crosswalk without pedestrian signal",
+        "recommendation": "North: Upgraded curb ramps, East: Median pedestrian refuge, pedestrian warning and knockdown signs; West: Median pedestrian refuge, pedestrian warning and knockdown signs; All approaches: high visibility crosswalk",
+        "comments_landuse": "From RMAG, Table 3-3, No. I6. ",
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "TC15",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8611521.9266053382,
+        "y": 4715537.2699230835
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 80,
+        "X": -77.360408,
+        "Y": 38.957131,
+        "district": "TC",
+        "location": "Explorer St & Bluemont Way",
+        "existing_ped_protection": "None",
+        "recommendation": "North: Signal and high visibility crosswalk; West: high visibility crosswalk",
+        "comments_landuse": "From RMAG, Table 3-3, No I5. North: High visibility crosswalk and upgraded curb ramps. ",
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "TC14",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8611721.0861912481,
+        "y": 4715532.8324119579
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 81,
+        "X": -77.354537,
+        "Y": 38.959682,
+        "district": "TC",
+        "location": "Reston Pkwy & Dulles Toll Rd ramps E",
+        "existing_ped_protection": null,
+        "recommendation": "West: high visibility crosswalk, pedestrian countdown signal, upgrade curb ramps, warning signage at unsignalized crossing, decrease right turn radius; South: pedestrian median refuges, high visibility crosswalk, pedestrian countdown signal, construct cur",
+        "comments_landuse": "Metrorail access. RMAG, Table 3-7, No. I31.  ",
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "TC21",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8611311.5338809341,
+        "y": 4714676.1055983109
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 82,
+        "X": -77.354537,
+        "Y": 38.959682,
+        "district": "TC",
+        "location": "Fairfax County Pkwy ramps at Sunset Hills Rd & Sunrise Valley Dr E",
+        "existing_ped_protection": "Standard crosswalks with no pedestrian signal",
+        "recommendation": "All aproaches: high visibility crosswalks",
+        "comments_landuse": "Dangerous crossing; high volumes and poor angles between vehicles and bikers create poor visibility",
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 0,
+        "district_id": "TC22",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8612962.8270585388,
+        "y": 4715406.2864287635
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 83,
+        "X": -77.363357,
+        "Y": 38.958774,
+        "district": "TC",
+        "location": "Market St & Town Center Pkwy",
+        "existing_ped_protection": "Standard N, S & W crosswalks with no pedestrian signal",
+        "recommendation": "East: signal and high visibility crosswalk North and South: pedestrian signal",
+        "comments_landuse": "Increasing pedestrian movement and high speed",
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "TC11",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8612049.4037710726,
+        "y": 4715768.0301914141
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 84,
+        "X": -77.36318,
+        "Y": 38.96043,
+        "district": "TC",
+        "location": "New Dominion Pkwy & Town Center Pkwy",
+        "existing_ped_protection": "4 standard crosswalks with pedestrian signal",
+        "recommendation": "New traffic signal; All approaches: pedestrian signal and high visibility crosswalks",
+        "comments_landuse": "Completed with standard crosswalks",
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "TC7",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8612029.6849704273,
+        "y": 4716005.13546634
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 85,
+        "X": -77.360368,
+        "Y": 38.960501,
+        "district": "TC",
+        "location": "Explorer St & New Dominion Pkwy",
+        "existing_ped_protection": "None",
+        "recommendation": "All approaches: High visibility crosswalks, upgraded curb ramps, decrease curb radii, potential signal with pedestrian phase; East: extend median island to include pedestrian refuge; West: pedestrian media refuge. ",
+        "comments_landuse": "Metrorail access. RMAG study, Table 3-3, No. I10. ",
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "TC9",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8611716.6494416241,
+        "y": 4716015.27917171
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 86,
+        "X": -77.362817,
+        "Y": 38.957162,
+        "district": "TC",
+        "location": "Town Center Pkwy & Bluemont Way ",
+        "existing_ped_protection": null,
+        "recommendation": "North: Extend median to include pedestrian refuge; South: extend median to include pedestrian refuge, decrease right turn radius; All approaches: upgrade curb ramps, high visibility crosswalk, re-align crosswalk. ",
+        "comments_landuse": "Metrorail access. From RMAG. Table 3-3, No. I4. ",
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "TC12",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8611989.26141242,
+        "y": 4715537.2699230835
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 87,
+        "X": -77.354537,
+        "Y": 38.959682,
+        "district": "TC",
+        "location": "Bluemont Way & Discovery St @ Pedestrian Bridge",
+        "existing_ped_protection": null,
+        "recommendation": " West: High visibility crosswalk, pedestrian countdown signal, raised median refuge island; North: high visibility crosswalk, construct curb ramp (east).",
+        "comments_landuse": "Metrorail access. From RMAG, Table 3-3, No. I2. ",
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "TC16",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8611330.707216071,
+        "y": 4715565.0528696338
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 88,
+        "X": -77.354537,
+        "Y": 38.959682,
+        "district": "TC",
+        "location": "Fairfax County Pkwy & Sunset Hills Rd at Spring St ramps",
+        "existing_ped_protection": "None",
+        "recommendation": "North: high visibility crosswalk with pedestrian signal; break in guard rail; complete sidewalk to bridge",
+        "comments_landuse": "Important pedestrian connection between Reston & Herndon",
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "TC17",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8612999.8078386541,
+        "y": 4715631.2831138205
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 89,
+        "X": -77.361719,
+        "Y": 38.960413,
+        "district": "TC",
+        "location": "St. Francis St & New Dominion Pkwy",
+        "existing_ped_protection": "None",
+        "recommendation": "North and South: Standard crosswalks",
+        "comments_landuse": "Increasing pedestrian movement due to very high density housing being completed.",
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "TC8",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8611867.0051156133,
+        "y": 4716002.5995057942
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 90,
+        "X": -77.356657,
+        "Y": 38.966413,
+        "district": "TC",
+        "location": "Fountain Dr & Baron Cameron Ave",
+        "existing_ped_protection": "East: standard crosswalk and pedestrian signal; North and South: standard crosswalks",
+        "recommendation": "North: pedestrian signal ",
+        "comments_landuse": "Increasing pedestrian movement due to new development.",
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "TC1",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8611303.54125282,
+        "y": 4716861.6765935607
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 91,
+        "X": -77.36171,
+        "Y": 38.957153,
+        "district": "TC",
+        "location": "St. Francis St & Bluemont Way",
+        "existing_ped_protection": "None",
+        "recommendation": "North: high visibility crosswalk ",
+        "comments_landuse": "Increasing pedestrian movement between bus transit station, coming rail station, and Town Center core",
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "TC13",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8611866.0191588812,
+        "y": 4715536.0021443637
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 92,
+        "X": -77.363029,
+        "Y": 38.953983,
+        "district": "TC",
+        "location": "Town Center Pkwy & Sunset Hills Rd",
+        "existing_ped_protection": "Signal",
+        "recommendation": "All approaches: High visibility crosswalk, extend median to include pedestrian refuge, pedestrian countdown signal, construct curb ramps",
+        "comments_landuse": "Metrorail access. Recommended by RMAG, Table 3-3, No. I3",
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "TC20",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8612012.9240399785,
+        "y": 4715082.1045999313
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 93,
+        "X": -77.365469,
+        "Y": 38.960612,
+        "district": "TC",
+        "location": "New Dominion Pkwy & Crescent Park Dr",
+        "existing_ped_protection": "None",
+        "recommendation": "North and South: standard crosswalks",
+        "comments_landuse": "Increasing pedestrian movement",
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "TC6",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8612284.5501653664,
+        "y": 4716031.128597443
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 94,
+        "X": -77.361161,
+        "Y": 38.963902,
+        "district": "TC",
+        "location": "Town Center Pkwy & Cameron Glen Dr",
+        "existing_ped_protection": "None",
+        "recommendation": "West, South, and East: standard crosswalks ",
+        "comments_landuse": null,
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "TC2",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8611804.8909548223,
+        "y": 4716502.1866686493
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 95,
+        "X": -77.359031,
+        "Y": 38.962162,
+        "district": "TC",
+        "location": "Bowman Towne Dr & Cameron Glen Dr",
+        "existing_ped_protection": "West: standard crosswalk",
+        "recommendation": "North and South: standard crosswalks with pedestrian signal",
+        "comments_landuse": null,
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "TC4",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8611567.7727583852,
+        "y": 4716253.0240171216
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 96,
+        "X": -77.356568,
+        "Y": 38.962242,
+        "district": "TC",
+        "location": "Bowman Towne Dr & Fountain Dr",
+        "existing_ped_protection": "All approaches: stop signs; South, East and West: standard crosswalks",
+        "recommendation": "North: standard crosswalk",
+        "comments_landuse": "Increasing pedestrian volume",
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "TC5",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8611293.6819081567,
+        "y": 4716264.4359831624
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 97,
+        "X": -77.360328,
+        "Y": 38.962073,
+        "district": "TC",
+        "location": "Bowman Towne Dr & Explorer St.",
+        "existing_ped_protection": "None",
+        "recommendation": "North and South: standard crosswalks",
+        "comments_landuse": "Number of people walking in this location is increasing",
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "TC3",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8611712.212692,
+        "y": 4716240.3441971783
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 98,
+        "X": -77.354537,
+        "Y": 38.959682,
+        "district": "TC",
+        "location": "Sunset Hills Rd & YMCA entrance (W)",
+        "existing_ped_protection": "None",
+        "recommendation": "Standard NE crosswalk",
+        "comments_landuse": "Connects retail area, YMCA, hotel, access to W&OD trail, gas station, and restaurants.",
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "TC18",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8612660.2474355418,
+        "y": 4715307.1517850822
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 99,
+        "X": -77.354537,
+        "Y": 38.959682,
+        "district": "TC",
+        "location": "Sunset Hills @ Target Driveway",
+        "existing_ped_protection": null,
+        "recommendation": "All approaches: high visibility crosswalks, countdown signals, upgraded curb ramps; East: Extend medians to include pedestrian refuge, re-align crosswalk. ",
+        "comments_landuse": "Metrorail access. Connects retail in Herndon to Target, gas station, and retail areas to North. From RMAG, Table 3-3, No. I9. ",
+        "City_1": "Reston",
+        "State": "VA",
+        "PosChecked": 1,
+        "district_id": "TC19",
+        "inventory_comment": null,
+        "reporter_name": null,
+        "completed": null
+      },
+      "geometry": {
+        "x": -8612567.6042383555,
+        "y": 4715175.8994206488
+      }
+    }
+  ]
+}
