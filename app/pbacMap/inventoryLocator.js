@@ -7,7 +7,7 @@
 
       //$scope.helpInfo.helpAvailable = true;
       //$scope.helpInfo.showHelp = false;
-      
+
       if($routeParams.district){
         $scope.inventoryConfig.district.id = $routeParams.district;
       }
@@ -30,9 +30,9 @@
         configLoaded: false,
         mapLoaded: false
       };
-      
+
       $scope.selectedMemorial = {};
-      
+
       if($routeParams.id){
         $scope.pageConfigProperties.selectedUnitId = $routeParams.id;
       }
@@ -40,9 +40,9 @@
       //get config for data url and schema and then query to get data
       queryConfig().then(function(configdata){
         configdata = configdata || {};
-        console.log("got config: ", configdata.locatorMapConfig);
-        
-        console.log("$scope.inventoryConfig: ", $scope.inventoryConfig);
+        //console.log("got config: ", configdata.locatorMapConfig);
+
+        //console.log("$scope.inventoryConfig: ", $scope.inventoryConfig);
         $scope.locatorMapConfig = configdata.locatorMapConfig;
         if($scope.locatorMapConfig){
           $scope.pageConfigProperties.configLoaded = true;
@@ -53,7 +53,7 @@
 //        console.log(newVal);
 //        console.log(oldVal);
         self.setSelectedUnit(newVal);
-        
+
 //        if(newVal){
 //          if(newVal !== oldVal){
 //            queryInventorySites({url: $scope.locatorMapConfig.inventoryUrl, id: $scope.pageConfigProperties.selectedUnitId}).then(function(data){
@@ -66,10 +66,14 @@
 //        }
 //        console.log($scope.selectedMemorial);
       });
-      
+
       $scope.startEdit = function(){
         console.log("Starting edit: " + "#/edit?id=" + $scope.selectedMemorial.attributes.district_id);
         $window.location = "#/edit?id=" + $scope.selectedMemorial.attributes.district_id;
+      };
+
+      $scope.clearSelection = function(){
+        $scope.pageConfigProperties.selectedUnitId = null;
       };
 
       this.setSelectedUnit = function(id){
