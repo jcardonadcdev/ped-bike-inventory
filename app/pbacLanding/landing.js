@@ -19,7 +19,7 @@
       });
 
       $scope.startInventory = function(id){
-        console.log("Starting: ", $scope.inventoryConfig);
+        //console.log("Starting: ", $scope.inventoryConfig);
 
         var params = [],
           path = "#/map";

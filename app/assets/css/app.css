@@ -29,7 +29,8 @@ a:active {
 
 .pmmButton{
   display: inline-block;
-  margin-bottom: 0;
+  margin-bottom: 0px;
+  margin-right: 5px;
   font-weight: normal;
   text-align: center;
   color: #FFFFFF !Important;
@@ -785,7 +786,7 @@ ul{
 
 .nonEditingCanvas{
   width:98%;
-  height: 50%;
+  height: 100%;
   background-color: #ffffff;
   overflow: auto;
 }

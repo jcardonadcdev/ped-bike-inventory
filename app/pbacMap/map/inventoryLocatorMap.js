@@ -18,7 +18,7 @@
             //watch dataLoaded variable so can load map
             scope.$watch("pageConfigProperties.configLoaded", function(newVal){
               if (newVal && !scope.pageConfigProperties.mapLoaded){
-                console.log("scope.inventoryConfig.district.id: ", scope.inventoryConfig.district.id);
+                //console.log("scope.inventoryConfig.district.id: ", scope.inventoryConfig.district.id);
                 scope.idField = scope.locatorMapConfig.idField;
                 queryInventorySites({url: scope.locatorMapConfig.inventoryUrl, parent: scope.inventoryConfig.district.id}).then(function(data){
                   //console.log("got inventory: ", data);
@@ -27,6 +27,29 @@
                   //$scope.pageConfigProperties.inventorySites = data;
                   //.pageConfigProperties.configLoaded = true;
                 });
+              }
+            });
+
+            scope.$watch("pageConfigProperties.selectedUnitId", function(newVal, oldVal){
+              //console.log("newVal: ", newVal);
+              //console.log("oldVal: ", oldVal);
+              if(!scope.pageConfigProperties.configLoaded){
+                return;
+              }
+
+              var self = this;
+              if(!angular.equals(newVal, oldVal)){
+                if(!newVal){
+                  scope.setLocatorPosition(null);
+                }
+                else{
+                  queryInventorySites({url: scope.locatorMapConfig.inventoryUrl, id: newVal}).then(function(data){
+                    //console.log("got inventory: ", data);
+                    scope.setLocatorPosition({
+                      feat: data
+                    });
+                  });
+                }
               }
             });
           };
@@ -45,11 +68,11 @@
           basemap: "topo"
         };
 
-      //default selection info
+      /*//default selection info
       $scope.mapSelectionInfo = {
         memorialUnitGraphic: null,
         selectedMemorial: null
-      };
+      };*/
 
       this.initializeMap = function(inventorySites){
         //console.log("Initializing map");
@@ -125,7 +148,7 @@
             }
             extent = new Extent(extent);
             extent.spatialReference = esriMap.spatialReference;
-            console.log("extent: ", extent);
+            //console.log("extent: ", extent);
             esriMap.setExtent(extent, true);
 
             $scope.fullExtent = extent;
@@ -223,9 +246,10 @@
             esriMap.graphics.add(gMemorial);
             $scope.mapSelectionInfo.memorialUnitGraphic = gMemorial;
 
-            self.setLocatorPosition({
+            $scope.pageConfigProperties.selectedUnitId = $scope.mapSelectionInfo.selectedMemorial.attributes[$scope.idField];
+            /*$scope.setLocatorPosition({
               feat: $scope.mapSelectionInfo.selectedMemorial
-            });
+            });*/
 
             esriMap.on("click", function(evt){
               //console.log("map click: ", evt);
@@ -233,38 +257,57 @@
               var mappt = evt.mapPoint,
                 ext = new Extent(mappt.x - 200, mappt.y - 200, mappt.x + 200, mappt.y + 200, mappt.spatialReference),
                 garray = inventoryLayer.graphics,
-                selectedFeature;
+                selectedFeature,
+                newId;
 
               selectedFeature = layerQueryService.getClosestFeature(ext, garray);
               //console.log("selectedFeature: ", selectedFeature);
-              self.setLocatorPosition(selectedFeature);
+              if(!selectedFeature){
+                newId = null;
+                //$scope.pageConfigProperties.selectedUnitId = null;
+              }
+              else{
+                newId = selectedFeature.feat.attributes[$scope.idField];
+                //$scope.pageConfigProperties.selectedUnitId = selectedFeature.feat.attributes[$scope.idField];
+              }
+
+              $timeout(function(){
+                //console.log("setting $scope.pageConfigProperties.selectedUnitId: ", newId);
+                $scope.pageConfigProperties.selectedUnitId = newId;
+              });
+              //self.setLocatorPosition(selectedFeature);
             });
           });
         });
       };
 
-      this.setLocatorPosition = function(memorialFeature){
-        var geom,
-          newId;
-        if(!memorialFeature || !memorialFeature.feat){
+      $scope.setLocatorPosition = function(memorialFeature){
+        var geom;
+        //console.log("memorialFeature: ", memorialFeature);
+        if(!memorialFeature || (memorialFeature instanceof Object && !memorialFeature.feat)){
+          $scope.mapSelectionInfo.memorialUnitGraphic.hide();
+          $scope.mapSelectionInfo.selectedMemorial = {};
+          //newId = null;
+        }
+        /*if(!memorialFeature || !memorialFeature.feat){
           $scope.mapSelectionInfo.memorialUnitGraphic.hide();
           $scope.selectedMemorial = {};
           newId = null;
-        }
+        }*/
         else{
           //console.log("$scope.idField: ", $scope.idField);
-          newId = memorialFeature.feat.attributes[$scope.idField];
-          $scope.selectedMemorial = memorialFeature.feat;
+          //newId = memorialFeature.feat.attributes[$scope.idField];
+          $scope.mapSelectionInfo.selectedMemorial = memorialFeature.feat;
           //console.log("configuring newID ", memorialFeature);
           geom = $scope.mapSelectionInfo.memorialUnitGraphic.geometry;
           geom.update(memorialFeature.feat.geometry.x, memorialFeature.feat.geometry.y);
           $scope.mapSelectionInfo.memorialUnitGraphic.setGeometry(geom);
           $scope.mapSelectionInfo.memorialUnitGraphic.show();
         }
-        $timeout(function(){
+        /*$timeout(function(){
           //console.log("setting $scope.pageConfigProperties.selectedUnitId: ", newId);
           $scope.pageConfigProperties.selectedUnitId = newId;
-        });
+        });*/
       };
 
       $scope.zoomFullExtent = function(){

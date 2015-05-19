@@ -7,12 +7,12 @@
     $scope.navbarConfig = {};
     $scope.navbarConfig.appMenuTitle = "PBAC Ped Bike Inventory";
     $scope.userAgentStr = (navigator.userAgent);
-    
+
     $scope.inventoryConfig = {
       worker: {},
       district: {}
     };
-    
+
     //console.log("USER AGENT STRING VAL", $scope.userAgentStr);
 
     $scope.lpConfig = {
@@ -22,14 +22,14 @@
       "appBodyBackgroundColor": '#F1F1F1',
       "timeoutValue": 2000
     };
-      
+
     $scope.handleNavBtnBack = function(){
       $window.history.back();
     };
 
     //get config info for application
     queryConfig().then(function(data){
-      console.log("got config data: ", data);
+      //console.log("got config data: ", data);
       $scope.districts = data.districts;
       $scope.workers = data.workers;
     });

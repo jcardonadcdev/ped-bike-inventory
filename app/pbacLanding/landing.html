@@ -5,17 +5,17 @@
       <h1 class="landingTitle">Welcome to the PBAC Pedestrian and Bike Improvements Inventory Application</h1>
     </div>
     <div class="landingText">
-      <h2 class="landingTitle">Select the district</h2>
+      <h2 class="landingTitle">Select the district you want to see. Leave blank to see all districts</h2>
       <select name="districts" ng-model="inventoryConfig.district" ng-options="district.label for district in districts">
         <option value="">-- Choose District --</option>
       </select>
     </div>
-    <div class="landingText">
+    <!--<div class="landingText">
       <h2 class="landingTitle">Who are you</h2>
       <select name="workers" ng-model="inventoryConfig.worker" ng-options="worker.id for worker in workers">
-        <option value="">-- Choose Worker --</option>
+        <option value="">&#45;&#45; Choose Worker &#45;&#45;</option>
       </select>
-    </div>
+    </div>-->
     <div class="landingText">
       <button class="pmmButton pmmButtonLrg" ng-hide="false" ng-click="startInventory()">Start</button>
     </div>

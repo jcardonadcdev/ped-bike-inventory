@@ -27,13 +27,13 @@
       //get config for data url and schema and then query to get data
       queryConfig().then(function(configdata){
         configdata = configdata || {};
-        console.log("got config: ", configdata.locatorMapConfig);
+        //console.log("got config: ", configdata.locatorMapConfig);
 
         $scope.pageConfigProperties.idField = configdata.locatorMapConfig.idField;
         $scope.pageConfigProperties.url = configdata.locatorMapConfig.inventoryUrl;
 
-        console.log("$scope.pageConfigProperties: ", $scope.pageConfigProperties);
-        console.log("$scope.inventoryConfig: ", $scope.inventoryConfig);
+        //console.log("$scope.pageConfigProperties: ", $scope.pageConfigProperties);
+        //console.log("$scope.inventoryConfig: ", $scope.inventoryConfig);
         getEditFeature();
       });
 
@@ -51,12 +51,17 @@
 
           $scope.editFeature = editfeat;
           $scope.orgFeat = feature;
-          console.log("editFeature: ", feature);
+          //console.log("editFeature: ", feature);
         });
       }
 
       $scope.applyEdits = function(){
         console.log("editFeature: ", $scope.editFeature);
+      };
+
+      $scope.stopEdit = function(){
+        //console.log("$window.history: ", $window.history);
+        $window.history.back();
       };
     });
 })(angular);
