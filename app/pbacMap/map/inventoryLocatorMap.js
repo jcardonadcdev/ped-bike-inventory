@@ -33,6 +33,9 @@
             scope.$watch("pageConfigProperties.selectedUnitId", function(newVal, oldVal){
               //console.log("newVal: ", newVal);
               //console.log("oldVal: ", oldVal);
+              if(!scope.pageConfigProperties.configLoaded){
+                return;
+              }
 
               var self = this;
               if(!angular.equals(newVal, oldVal)){
@@ -65,11 +68,11 @@
           basemap: "topo"
         };
 
-      //default selection info
+      /*//default selection info
       $scope.mapSelectionInfo = {
         memorialUnitGraphic: null,
         selectedMemorial: null
-      };
+      };*/
 
       this.initializeMap = function(inventorySites){
         //console.log("Initializing map");
@@ -243,9 +246,10 @@
             esriMap.graphics.add(gMemorial);
             $scope.mapSelectionInfo.memorialUnitGraphic = gMemorial;
 
-            $scope.setLocatorPosition({
+            $scope.pageConfigProperties.selectedUnitId = $scope.mapSelectionInfo.selectedMemorial.attributes[$scope.idField];
+            /*$scope.setLocatorPosition({
               feat: $scope.mapSelectionInfo.selectedMemorial
-            });
+            });*/
 
             esriMap.on("click", function(evt){
               //console.log("map click: ", evt);
@@ -282,7 +286,7 @@
         //console.log("memorialFeature: ", memorialFeature);
         if(!memorialFeature || (memorialFeature instanceof Object && !memorialFeature.feat)){
           $scope.mapSelectionInfo.memorialUnitGraphic.hide();
-          $scope.selectedMemorial = {};
+          $scope.mapSelectionInfo.selectedMemorial = {};
           //newId = null;
         }
         /*if(!memorialFeature || !memorialFeature.feat){
@@ -293,7 +297,7 @@
         else{
           //console.log("$scope.idField: ", $scope.idField);
           //newId = memorialFeature.feat.attributes[$scope.idField];
-          $scope.selectedMemorial = memorialFeature.feat;
+          $scope.mapSelectionInfo.selectedMemorial = memorialFeature.feat;
           //console.log("configuring newID ", memorialFeature);
           geom = $scope.mapSelectionInfo.memorialUnitGraphic.geometry;
           geom.update(memorialFeature.feat.geometry.x, memorialFeature.feat.geometry.y);

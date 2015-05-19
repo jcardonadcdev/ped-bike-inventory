@@ -1,5 +1,5 @@
 <div class="scrollable">
-  <div class="editingCanvas scrollable-content">
+  <!--<div class="editingCanvas scrollable-content">
     <div class="editText">
       <span class="editLabel">ID: </span><span>{{orgFeat.attributes.district_id}}</span>
     </div>
@@ -18,9 +18,15 @@
     <div class="editText bordered">
       <input type="button" value="Apply" ng-click="applyEdits()">
     </div>
-  </div>
+  </div>-->
 
+  <div class="editText bordered">
+    <input type="button" class="pmmButton" value="Close" ng-click="stopEdit()">
+  </div>
   <div class="nonEditingCanvas scrollable-content">
+    <div class="editText">
+      <span class="editLabel">ID: </span><span>{{orgFeat.attributes.district_id}}</span>
+    </div>
     <!--<h1 class="landingText">Edit the stuff here</h1>--></h1>
     <div class="editText">
       <div class="editLabel">Location: </div><div class="editEntry">{{orgFeat.attributes.location}}</div>

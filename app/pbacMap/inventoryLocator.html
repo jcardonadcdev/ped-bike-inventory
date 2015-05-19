@@ -3,11 +3,11 @@
     <div ng-show="pageConfigProperties.selectedUnitId !== null" class="editCanvas mapSidebar">
       <div class="editText">
         <div class="editLabel">ID:</div>
-        <span class="editContent">{{selectedMemorial.attributes.district_id}}</span>
+        <span class="editContent">{{mapSelectionInfo.selectedMemorial.attributes.district_id}}</span>
       </div>
       <div class="editText">
         <div class="editLabel">Location:</div>
-        <span class="editContent">{{selectedMemorial.attributes.location}}</span>
+        <span class="editContent">{{mapSelectionInfo.selectedMemorial.attributes.location}}</span>
       </div>
       <button class="pmmButton" ng-click="startEdit()">Details</button>
       <button class="pmmButton" ng-click="clearSelection()">Clear</button>

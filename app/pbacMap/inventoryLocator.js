@@ -31,7 +31,12 @@
         mapLoaded: false
       };
 
-      $scope.selectedMemorial = {};
+      //default selection info
+      $scope.mapSelectionInfo = {
+        memorialUnitGraphic: null,
+        selectedMemorial: null
+      };
+      //$scope.selectedMemorial = {};
 
       if($routeParams.id){
         $scope.pageConfigProperties.selectedUnitId = $routeParams.id;
@@ -68,8 +73,8 @@
       });
 
       $scope.startEdit = function(){
-        console.log("Starting edit: " + "#/edit?id=" + $scope.selectedMemorial.attributes.district_id);
-        $window.location = "#/edit?id=" + $scope.selectedMemorial.attributes.district_id;
+        //console.log("Starting edit: " + "#/edit?id=" + $scope.mapSelectionInfo.selectedMemorial.attributes.district_id);
+        $window.location = "#/edit?id=" + $scope.mapSelectionInfo.selectedMemorial.attributes.district_id;
       };
 
       $scope.clearSelection = function(){
