@@ -65,7 +65,7 @@
 	"locatorMapConfig": {
     "idField": "district_id",
     "parentField": "district",
-		"inventoryUrl": "http://services.arcgis.com/Ifmt5HNchtBkCEhq/arcgis/rest/services/IntersectionImprovements/FeatureServer/0",
+      "inventoryUrl": "./data/pedbike.json",
 		"featureCollectionSchema": {
       "geometryType": "esriGeometryPoint",
       "fields": [

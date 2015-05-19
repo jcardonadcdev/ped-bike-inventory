@@ -13,11 +13,11 @@
         if(queryParams.hasOwnProperty("idField")){
           _idField = queryParams.idField;
         }
-        
+
         if(queryParams.hasOwnProperty("parentField")){
           _parentField = queryParams.idField;
         }
-        
+
         var qdefer = $q.defer(),
           urlsuffix = "/query?f=json&where=1=1&includeGeometery=true&outFields=*",
           svcurl = queryParams.url,
@@ -40,7 +40,7 @@
           }
           else{
             results = _data;
-            
+
           }
           qdefer.resolve(results);
         }
@@ -54,7 +54,7 @@
             processRequest();
           }
           else{
-            svcurl += urlsuffix;
+            //svcurl += urlsuffix;
             $http.get(svcurl).success(function(data){
               //console.log("data: ", data);
               data = data || {};
