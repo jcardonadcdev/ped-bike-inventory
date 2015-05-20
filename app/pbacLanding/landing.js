@@ -19,14 +19,15 @@
       });
 
       $scope.startInventory = function(id){
-        //console.log("Starting: ", $scope.inventoryConfig);
-
+        console.log("Starting: ", $scope.inventoryConfig);
+        $scope.inventoryConfig.district = $scope.inventoryConfig.district || {};
+        $scope.inventoryConfig.worker = $scope.inventoryConfig.worker || {};
         var params = [],
           path = "#/map";
-        if($scope.inventoryConfig.district.id){
+        if($scope.inventoryConfig.district && $scope.inventoryConfig.district.id){
           params.push("district=" + $scope.inventoryConfig.district.id);
         }
-        if($scope.inventoryConfig.worker.id){
+        if($scope.inventoryConfig.worker && $scope.inventoryConfig.worker.id){
           params.push("worker=" + $scope.inventoryConfig.worker.id);
         }
         if(params.length){

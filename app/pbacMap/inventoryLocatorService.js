@@ -24,19 +24,39 @@
           id = queryParams.id,
           parent = queryParams.parent;
 
+        function filterData(filterid, field){
+          var filtered = [],
+            item;
+          for(var i = 0, n = _data.length; i < n; i++){
+            item = _data[i];
+            if(item[field] === filterid){
+              filtered.push(item);
+            }
+          }
+          return filtered;
+        }
+
         function processRequest(){
           var results = [];
+          //console.log("processing request-id: ", id);
+          //console.log("processing request-parent: ", parent);
           if(!angular.isUndefined(id) && !angular.equals(id, null)){
-            results = $filter("filter")(_data, {
-              id: id
-            });
+            results = filterData(id, "id");
             results = results[0];
+            //console.log("results-id: ", results);
+            /*results = $filter("filter")(_data, {
+              id: id
+            });*/
+            //console.log("results: ", results);
+            //results = results[0];
             //qdefer.resolve(_dict[id]);
           }
           else if(!angular.isUndefined(parent) && !angular.equals(parent, null)){
-            results = $filter("filter")(_data, {
+            results = filterData(parent, "parent");
+            //console.log("results-parent: ", results);
+            /*results = $filter("filter")(_data, {
               parent: parent
-            });
+            });*/
           }
           else{
             results = _data;
