@@ -75,13 +75,13 @@
       };*/
 
       this.initializeMap = function(inventorySites){
-        //console.log("Initializing map");
+        //console.log("Initializing map: ", $scope.pageConfigProperties.selectedUnitId);
         //get selected memorial unit if it was set on url and map not initialized yet
         if($scope.pageConfigProperties.selectedUnitId && angular.isUndefined(esriMap)){
           esriMap = null;
           queryInventorySites({id: $scope.pageConfigProperties.selectedUnitId}).then(function(data){
             //set map center and zoom
-            defaultMapProperties.center = data.geometry;
+            //defaultMapProperties.center = data.geometry;
 
             //set selected unit info - the feature
             $scope.mapSelectionInfo.selectedMemorial = data;
@@ -246,7 +246,10 @@
             esriMap.graphics.add(gMemorial);
             $scope.mapSelectionInfo.memorialUnitGraphic = gMemorial;
 
-            $scope.pageConfigProperties.selectedUnitId = $scope.mapSelectionInfo.selectedMemorial.attributes[$scope.idField];
+            if($scope.mapSelectionInfo.selectedMemorial){
+              $scope.pageConfigProperties.selectedUnitId = $scope.mapSelectionInfo.selectedMemorial.attributes[$scope.idField];
+            }
+
             /*$scope.setLocatorPosition({
               feat: $scope.mapSelectionInfo.selectedMemorial
             });*/
@@ -311,7 +314,7 @@
       };
 
       $scope.zoomFullExtent = function(){
-        console.log("zooming to extent");
+        //console.log("zooming to extent");
         if($scope.fullExtent){
           esriMap.setExtent($scope.fullExtent, true);
         }
